@@ -1,0 +1,810 @@
+[0.375s] Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone': CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone -- -j4 -l4
+[0.511s] [ 20%] Built target teleop
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target estimator[0m
+[0.579s] [ 30%] [32mBuilding CXX object CMakeFiles/estimator.dir/src/estimator.cpp.o[0m
+[9.409s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:164[m[K,
+[9.409s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.409s]                  from [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:17[m[K,
+[9.409s]                  from [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/src/estimator.cpp:4[m[K:
+[9.409s] /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h: In instantiation of ‘[01m[Kconst Eigen::Product<Derived, OtherDerived> Eigen::MatrixBase<Derived>::operator*(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Matrix<double, 3, 3>; Derived = Eigen::Matrix<double, 1, 2>][m[K’:
+[9.409s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:386:42:[m[K   required from here
+[9.409s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:419:38:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: INVALID_MATRIX_PRODUCT
+[9.409s]   419 |   EIGEN_STATIC_ASSERT([01;31m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[9.409s]       |                       [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[9.409s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[9.409s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[9.410s]       |                                                      [01;36m[K^[m[K
+[9.410s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:419:38:[m[K [01;36m[Knote: [m[K‘[01m[K(false || false)[m[K’ evaluates to false
+[9.410s]   419 |   EIGEN_STATIC_ASSERT([01;36m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[9.410s]       |                       [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[9.410s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[9.410s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[9.410s]       |                                                      [01;36m[K^[m[K
+[9.411s] /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h: In instantiation of ‘[01m[Kconst Eigen::Product<Derived, OtherDerived> Eigen::MatrixBase<Derived>::operator*(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Transpose<Eigen::Matrix<double, 1, 2> >; Derived = Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>][m[K’:
+[9.411s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:386:60:[m[K   required from here
+[9.411s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:419:38:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: INVALID_MATRIX_PRODUCT
+[9.411s]   419 |   EIGEN_STATIC_ASSERT([01;31m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[9.411s]       |                       [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[9.411s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[9.411s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[9.411s]       |                                                      [01;36m[K^[m[K
+[9.412s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:419:38:[m[K [01;36m[Knote: [m[K‘[01m[K(false || false)[m[K’ evaluates to false
+[9.412s]   419 |   EIGEN_STATIC_ASSERT([01;36m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[9.412s]       |                       [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[9.412s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[9.412s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[9.412s]       |                                                      [01;36m[K^[m[K
+[9.413s] /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h: In instantiation of ‘[01m[Kconst Eigen::Product<Derived, OtherDerived> Eigen::MatrixBase<Derived>::operator*(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Transpose<Eigen::Matrix<double, 1, 2> >; Derived = Eigen::Matrix<double, 3, 3>][m[K’:
+[9.413s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:387:52:[m[K   required from here
+[9.414s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:419:38:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: INVALID_MATRIX_PRODUCT
+[9.414s]   419 |   EIGEN_STATIC_ASSERT([01;31m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[9.414s]       |                       [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[9.414s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[9.414s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[9.414s]       |                                                      [01;36m[K^[m[K
+[9.414s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:419:38:[m[K [01;36m[Knote: [m[K‘[01m[K(false || false)[m[K’ evaluates to false
+[9.414s]   419 |   EIGEN_STATIC_ASSERT([01;36m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[9.414s]       |                       [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[9.414s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[9.414s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[9.414s]       |                                                      [01;36m[K^[m[K
+[9.416s] /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h: In instantiation of ‘[01m[Kconst Eigen::Product<Derived, OtherDerived> Eigen::MatrixBase<Derived>::operator*(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Matrix<double, 3, 3>; Derived = Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>][m[K’:
+[9.417s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:389:35:[m[K   required from here
+[9.417s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:419:38:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: INVALID_MATRIX_PRODUCT
+[9.417s]   419 |   EIGEN_STATIC_ASSERT([01;31m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[9.417s]       |                       [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[9.417s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[9.417s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[9.417s]       |                                                      [01;36m[K^[m[K
+[9.417s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:419:38:[m[K [01;36m[Knote: [m[K‘[01m[K(false || false)[m[K’ evaluates to false
+[9.417s]   419 |   EIGEN_STATIC_ASSERT([01;36m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[9.417s]       |                       [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[9.417s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[9.417s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[9.417s]       |                                                      [01;36m[K^[m[K
+[9.420s] /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h: In instantiation of ‘[01m[Kconst Eigen::Product<Derived, OtherDerived> Eigen::MatrixBase<Derived>::operator*(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Matrix<double, 3, 3>; Derived = Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>][m[K’:
+[9.420s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:415:39:[m[K   required from here
+[9.420s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:419:38:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: INVALID_MATRIX_PRODUCT
+[9.420s]   419 |   EIGEN_STATIC_ASSERT([01;31m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[9.420s]       |                       [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[9.420s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[9.420s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[9.420s]       |                                                      [01;36m[K^[m[K
+[9.420s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:419:38:[m[K [01;36m[Knote: [m[K‘[01m[K(false || false)[m[K’ evaluates to false
+[9.421s]   419 |   EIGEN_STATIC_ASSERT([01;36m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[9.421s]       |                       [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[9.421s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[9.421s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[9.421s]       |                                                      [01;36m[K^[m[K
+[9.622s] /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h: In instantiation of ‘[01m[KEigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::CwiseBinaryOp(const Lhs&, const Rhs&, const BinaryOp&) [with BinaryOp = Eigen::internal::scalar_sum_op<double, double>; LhsType = const Eigen::Matrix<double, 3, 1>; RhsType = const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 2, 1> > >; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Lhs = Eigen::Matrix<double, 3, 1>; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Rhs = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 2, 1> > >][m[K’:
+[9.622s] [01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:27:1:[m[K   required from ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<typename Eigen::internal::traits<T>::Scalar, typename Eigen::internal::traits<OtherDerived>::Scalar>, const Derived, const OtherDerived> Eigen::MatrixBase<Derived>::operator+(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 2, 1> > >; Derived = Eigen::Matrix<double, 3, 1>; typename Eigen::internal::traits<OtherDerived>::Scalar = double; typename Eigen::internal::traits<T>::Scalar = double][m[K’
+[9.622s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:414:49:[m[K   required from here
+[9.622s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+[9.622s]   175 |      [01;31m[K( \[m[K
+[9.622s]       |      [01;31m[K~~~[m[K
+[9.622s]   176 | [01;31m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[9.622s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.622s]   177 | [01;31m[K    || (\[m[K
+[9.623s]       |     [01;31m[K^~~~~[m[K
+[9.623s]   178 | [01;31m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.623s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.623s]   179 | [01;31m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.623s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.623s]   180 | [01;31m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[9.623s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.623s]   181 | [01;31m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.624s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.624s]   182 | [01;31m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.624s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.624s]   183 | [01;31m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[9.624s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.624s]   184 | [01;31m[K       ) \[m[K
+[9.624s]       |        [01;31m[K~~~[m[K
+[9.624s]   185 | [01;31m[K     )[m[K
+[9.624s]       |      [01;31m[K~[m[K
+[9.624s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[9.624s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[9.624s]       |                                                      [01;36m[K^[m[K
+[9.624s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[9.624s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[9.624s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.625s] [01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:115:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[9.625s]   115 |       [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(Lhs, Rhs)
+[9.625s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.625s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;36m[Knote: [m[K‘[01m[K(((((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Matrix<double, 3, 1> >::ret) == 0) && (((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 2, 1> > > >::ret) == 0)) || ((((((int)Eigen::Matrix<double, 3, 1>::RowsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 2, 1> > >::RowsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Matrix<double, 3, 1>::RowsAtCompileTime) == ((int)Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 2, 1> > >::RowsAtCompileTime))) && (((((int)Eigen::Matrix<double, 3, 1>::ColsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 2, 1> > >::ColsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Matrix<double, 3, 1>::ColsAtCompileTime) == ((int)Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, 2, 1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 2, 1> > >::ColsAtCompileTime)))))[m[K’ evaluates to false
+[9.625s]   175 |      [01;36m[K( \[m[K
+[9.625s]       |      [01;36m[K~~~[m[K
+[9.625s]   176 | [01;36m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[9.625s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.625s]   177 | [01;36m[K    || (\[m[K
+[9.625s]       |     [01;36m[K^~~~~[m[K
+[9.625s]   178 | [01;36m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.625s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.625s]   179 | [01;36m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.625s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.625s]   180 | [01;36m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[9.626s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.626s]   181 | [01;36m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.626s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.626s]   182 | [01;36m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.626s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.626s]   183 | [01;36m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[9.626s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.626s]   184 | [01;36m[K       ) \[m[K
+[9.626s]       |        [01;36m[K~~~[m[K
+[9.626s]   185 | [01;36m[K     )[m[K
+[9.626s]       |      [01;36m[K~[m[K
+[9.626s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[9.626s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[9.626s]       |                                                      [01;36m[K^[m[K
+[9.627s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[9.627s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[9.627s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.627s] [01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:115:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[9.627s]   115 |       [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(Lhs, Rhs)
+[9.627s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.629s] /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h: In instantiation of ‘[01m[KEigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::CwiseBinaryOp(const Lhs&, const Rhs&, const BinaryOp&) [with BinaryOp = Eigen::internal::scalar_difference_op<double, double>; LhsType = const Eigen::Matrix<double, 3, 3>; RhsType = const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Lhs = Eigen::Matrix<double, 3, 3>; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Rhs = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>][m[K’:
+[9.629s] [01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:19:1:[m[K   required from ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<typename Eigen::internal::traits<T>::Scalar, typename Eigen::internal::traits<OtherDerived>::Scalar>, const Derived, const OtherDerived> Eigen::MatrixBase<Derived>::operator-(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>; Derived = Eigen::Matrix<double, 3, 3>; typename Eigen::internal::traits<OtherDerived>::Scalar = double; typename Eigen::internal::traits<T>::Scalar = double][m[K’
+[9.630s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:415:42:[m[K   required from here
+[9.630s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+[9.630s]   175 |      [01;31m[K( \[m[K
+[9.630s]       |      [01;31m[K~~~[m[K
+[9.630s]   176 | [01;31m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[9.630s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.630s]   177 | [01;31m[K    || (\[m[K
+[9.630s]       |     [01;31m[K^~~~~[m[K
+[9.630s]   178 | [01;31m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.631s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.631s]   179 | [01;31m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.631s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.631s]   180 | [01;31m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[9.631s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.631s]   181 | [01;31m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.631s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.631s]   182 | [01;31m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.631s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.632s]   183 | [01;31m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[9.632s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.632s]   184 | [01;31m[K       ) \[m[K
+[9.632s]       |        [01;31m[K~~~[m[K
+[9.632s]   185 | [01;31m[K     )[m[K
+[9.632s]       |      [01;31m[K~[m[K
+[9.632s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[9.632s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[9.632s]       |                                                      [01;36m[K^[m[K
+[9.632s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[9.633s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[9.633s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.633s] [01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:115:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[9.633s]   115 |       [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(Lhs, Rhs)
+[9.633s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.635s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;36m[Knote: [m[K‘[01m[K(((((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Matrix<double, 3, 3> >::ret) == 0) && (((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >::ret) == 0)) || ((((((int)Eigen::Matrix<double, 3, 3>::RowsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>::RowsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Matrix<double, 3, 3>::RowsAtCompileTime) == ((int)Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>::RowsAtCompileTime))) && (((((int)Eigen::Matrix<double, 3, 3>::ColsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>::ColsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Matrix<double, 3, 3>::ColsAtCompileTime) == ((int)Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>::ColsAtCompileTime)))))[m[K’ evaluates to false
+[9.635s]   175 |      [01;36m[K( \[m[K
+[9.635s]       |      [01;36m[K~~~[m[K
+[9.636s]   176 | [01;36m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[9.636s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.636s]   177 | [01;36m[K    || (\[m[K
+[9.636s]       |     [01;36m[K^~~~~[m[K
+[9.636s]   178 | [01;36m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.636s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.636s]   179 | [01;36m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.636s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.636s]   180 | [01;36m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[9.636s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.636s]   181 | [01;36m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.636s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.636s]   182 | [01;36m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[9.636s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.636s]   183 | [01;36m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[9.636s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.637s]   184 | [01;36m[K       ) \[m[K
+[9.637s]       |        [01;36m[K~~~[m[K
+[9.637s]   185 | [01;36m[K     )[m[K
+[9.637s]       |      [01;36m[K~[m[K
+[9.637s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[9.637s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[9.637s]       |                                                      [01;36m[K^[m[K
+[9.637s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[9.637s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[9.637s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.637s] [01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:115:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[9.637s]   115 |       [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(Lhs, Rhs)
+[9.637s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.158s] /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 2, 1>; Src = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>; Func = Eigen::internal::assign_op<double, double>][m[K’:
+[10.158s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>; Derived = Eigen::Matrix<double, 2, 1>][m[K’
+[10.158s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:594:19:[m[K   required from ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>; Derived = Eigen::Matrix<double, 2, 1>][m[K’
+[10.158s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:423:29:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>; _Scalar = double; int _Rows = 2; int _Cols = 1; int _Options = 0; int _MaxRows = 2; int _MaxCols = 1][m[K’
+[10.158s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:413:75:[m[K   required from here
+[10.158s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+[10.158s]   175 |      [01;31m[K( \[m[K
+[10.159s]       |      [01;31m[K~~~[m[K
+[10.159s]   176 | [01;31m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[10.159s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.159s]   177 | [01;31m[K    || (\[m[K
+[10.159s]       |     [01;31m[K^~~~~[m[K
+[10.159s]   178 | [01;31m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.159s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.159s]   179 | [01;31m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.159s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.159s]   180 | [01;31m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[10.159s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.165s]   181 | [01;31m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.165s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.165s]   182 | [01;31m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.165s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.165s]   183 | [01;31m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[10.165s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.166s]   184 | [01;31m[K       ) \[m[K
+[10.166s]       |        [01;31m[K~~~[m[K
+[10.166s]   185 | [01;31m[K     )[m[K
+[10.166s]       |      [01;31m[K~[m[K
+[10.166s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[10.166s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[10.166s]       |                                                      [01;36m[K^[m[K
+[10.166s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[10.166s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[10.166s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.166s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:887:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[10.166s]   887 |   [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(ActualDstTypeCleaned,Src)
+[10.166s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.166s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;36m[Knote: [m[K‘[01m[K(((((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Matrix<double, 2, 1> >::ret) == 0) && (((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0> >::ret) == 0)) || ((((((int)Eigen::Matrix<double, 2, 1>::RowsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>::RowsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Matrix<double, 2, 1>::RowsAtCompileTime) == ((int)Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>::RowsAtCompileTime))) && (((((int)Eigen::Matrix<double, 2, 1>::ColsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>::ColsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Matrix<double, 2, 1>::ColsAtCompileTime) == ((int)Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>::ColsAtCompileTime)))))[m[K’ evaluates to false
+[10.166s]   175 |      [01;36m[K( \[m[K
+[10.167s]       |      [01;36m[K~~~[m[K
+[10.167s]   176 | [01;36m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[10.167s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.167s]   177 | [01;36m[K    || (\[m[K
+[10.167s]       |     [01;36m[K^~~~~[m[K
+[10.167s]   178 | [01;36m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.167s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.167s]   179 | [01;36m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.167s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.167s]   180 | [01;36m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[10.167s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.167s]   181 | [01;36m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.167s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.168s]   182 | [01;36m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.168s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.168s]   183 | [01;36m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[10.168s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.168s]   184 | [01;36m[K       ) \[m[K
+[10.168s]       |        [01;36m[K~~~[m[K
+[10.168s]   185 | [01;36m[K     )[m[K
+[10.168s]       |      [01;36m[K~[m[K
+[10.168s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[10.168s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[10.168s]       |                                                      [01;36m[K^[m[K
+[10.168s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[10.168s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[10.168s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.168s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:887:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[10.168s]   887 |   [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(ActualDstTypeCleaned,Src)
+[10.169s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.178s] /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 3, 3>; Src = Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 2, 2> >; Func = Eigen::internal::assign_op<double, double>][m[K’:
+[10.178s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 2, 2> >; Derived = Eigen::Matrix<double, 3, 3>][m[K’
+[10.178s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:594:19:[m[K   required from ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 2, 2> >; Derived = Eigen::Matrix<double, 3, 3>][m[K’
+[10.178s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:423:29:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 2, 2> >; _Scalar = double; int _Rows = 3; int _Cols = 3; int _Options = 0; int _MaxRows = 3; int _MaxCols = 3][m[K’
+[10.178s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:581:69:[m[K   required from here
+[10.178s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+[10.178s]   175 |      [01;31m[K( \[m[K
+[10.179s]       |      [01;31m[K~~~[m[K
+[10.179s]   176 | [01;31m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[10.179s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.179s]   177 | [01;31m[K    || (\[m[K
+[10.179s]       |     [01;31m[K^~~~~[m[K
+[10.179s]   178 | [01;31m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.179s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.179s]   179 | [01;31m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.179s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.179s]   180 | [01;31m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[10.179s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.179s]   181 | [01;31m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.179s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.179s]   182 | [01;31m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.179s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.180s]   183 | [01;31m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[10.180s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.180s]   184 | [01;31m[K       ) \[m[K
+[10.180s]       |        [01;31m[K~~~[m[K
+[10.180s]   185 | [01;31m[K     )[m[K
+[10.180s]       |      [01;31m[K~[m[K
+[10.180s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[10.180s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[10.180s]       |                                                      [01;36m[K^[m[K
+[10.180s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[10.180s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[10.180s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.180s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:887:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[10.180s]   887 |   [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(ActualDstTypeCleaned,Src)
+[10.180s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.181s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;36m[Knote: [m[K‘[01m[K(((((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Matrix<double, 3, 3> >::ret) == 0) && (((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 2, 2> > >::ret) == 0)) || ((((((int)Eigen::Matrix<double, 3, 3>::RowsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 2, 2> >::RowsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Matrix<double, 3, 3>::RowsAtCompileTime) == ((int)Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 2, 2> >::RowsAtCompileTime))) && (((((int)Eigen::Matrix<double, 3, 3>::ColsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 2, 2> >::ColsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Matrix<double, 3, 3>::ColsAtCompileTime) == ((int)Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 2, 2> >::ColsAtCompileTime)))))[m[K’ evaluates to false
+[10.181s]   175 |      [01;36m[K( \[m[K
+[10.181s]       |      [01;36m[K~~~[m[K
+[10.181s]   176 | [01;36m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[10.181s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.181s]   177 | [01;36m[K    || (\[m[K
+[10.181s]       |     [01;36m[K^~~~~[m[K
+[10.181s]   178 | [01;36m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.181s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.181s]   179 | [01;36m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.181s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.181s]   180 | [01;36m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[10.181s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.181s]   181 | [01;36m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.182s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.182s]   182 | [01;36m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[10.182s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.182s]   183 | [01;36m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[10.182s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.182s]   184 | [01;36m[K       ) \[m[K
+[10.182s]       |        [01;36m[K~~~[m[K
+[10.182s]   185 | [01;36m[K     )[m[K
+[10.182s]       |      [01;36m[K~[m[K
+[10.182s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[10.182s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[10.182s]       |                                                      [01;36m[K^[m[K
+[10.182s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[10.182s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[10.182s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.182s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:887:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[10.183s]   887 |   [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(ActualDstTypeCleaned,Src)
+[10.183s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.644s] /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h: In instantiation of ‘[01m[KEigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::CwiseBinaryOp(const Lhs&, const Rhs&, const BinaryOp&) [with BinaryOp = Eigen::internal::scalar_product_op<double, double>; LhsType = const Eigen::Transpose<const Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0> >; RhsType = const Eigen::Transpose<Eigen::Matrix<double, 1, 2> >; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Lhs = Eigen::Transpose<const Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0> >; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Rhs = Eigen::Transpose<Eigen::Matrix<double, 1, 2> >][m[K’:
+[12.644s] [01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h:25:10:[m[K   required from ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<typename Eigen::internal::traits<T>::Scalar, typename Eigen::internal::traits<OtherDerived>::Scalar>, const Derived, const OtherDerived> Eigen::MatrixBase<Derived>::cwiseProduct(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Transpose<Eigen::Matrix<double, 1, 2> >; Derived = Eigen::Transpose<const Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0> >; typename Eigen::internal::traits<OtherDerived>::Scalar = double; typename Eigen::internal::traits<T>::Scalar = double][m[K’
+[12.644s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:251:54:[m[K   required from ‘[01m[Kstatic void Eigen::internal::generic_product_impl<Lhs, Rhs, Eigen::DenseShape, Eigen::DenseShape, 6>::evalTo(Dst&, const Lhs&, const Rhs&) [with Dst = Eigen::Matrix<double, -1, -1>; Lhs = Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>; Rhs = Eigen::Transpose<Eigen::Matrix<double, 1, 2> >][m[K’
+[12.644s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:148:43:[m[K   required from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, Eigen::Product<Lhs, Rhs, Options>, Eigen::internal::assign_op<Scalar, Scalar>, Eigen::internal::Dense2Dense, typename Eigen::internal::enable_if<((Options == Eigen::DefaultProduct) || (Options == Eigen::AliasFreeProduct))>::type>::run(DstXprType&, const SrcXprType&, const Eigen::internal::assign_op<Scalar, Scalar>&) [with DstXprType = Eigen::Matrix<double, -1, -1>; Lhs = Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>; Rhs = Eigen::Transpose<Eigen::Matrix<double, 1, 2> >; int Options = 0; Scalar = double; Eigen::internal::Assignment<DstXprType, Eigen::Product<Lhs, Rhs, Options>, Eigen::internal::assign_op<Scalar, Scalar>, Eigen::internal::Dense2Dense, typename Eigen::internal::enable_if<((Options == Eigen::DefaultProduct) || (Options == Eigen::AliasFreeProduct))>::type>::SrcXprType = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>][m[K’
+[12.644s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, -1, -1>; Src = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>; Func = Eigen::internal::assign_op<double, double>][m[K’
+[12.644s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:223:29:[m[K   required from ‘[01m[Kstatic void Eigen::internal::assignment_from_xpr_op_product<DstXprType, OtherXpr, ProductType, Func1, Func2>::run(DstXprType&, const SrcXprType&, const InitialFunc&) [with SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; InitialFunc = Eigen::internal::assign_op<double, double>; DstXprType = Eigen::Matrix<double, -1, -1>; OtherXpr = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>; ProductType = Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0>; Func1 = Eigen::internal::assign_op<double, double>; Func2 = Eigen::internal::add_assign_op<double, double>][m[K’
+[12.644s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, -1, -1>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; Func = Eigen::internal::assign_op<double, double>][m[K’
+[12.644s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; Derived = Eigen::Matrix<double, -1, -1>][m[K’
+[12.644s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:594:19:[m[K   required from ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; Derived = Eigen::Matrix<double, -1, -1>][m[K’
+[12.644s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:423:29:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[12.647s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:386:100:[m[K   required from here
+[12.647s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+[12.647s]   175 |      [01;31m[K( \[m[K
+[12.647s]       |      [01;31m[K~~~[m[K
+[12.647s]   176 | [01;31m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[12.647s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.647s]   177 | [01;31m[K    || (\[m[K
+[12.648s]       |     [01;31m[K^~~~~[m[K
+[12.648s]   178 | [01;31m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.648s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.648s]   179 | [01;31m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.648s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.648s]   180 | [01;31m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[12.648s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.648s]   181 | [01;31m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.648s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.648s]   182 | [01;31m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.648s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.648s]   183 | [01;31m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[12.648s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.648s]   184 | [01;31m[K       ) \[m[K
+[12.649s]       |        [01;31m[K~~~[m[K
+[12.649s]   185 | [01;31m[K     )[m[K
+[12.649s]       |      [01;31m[K~[m[K
+[12.649s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[12.649s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[12.649s]       |                                                      [01;36m[K^[m[K
+[12.649s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[12.649s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[12.649s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.649s] [01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:115:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[12.649s]   115 |       [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(Lhs, Rhs)
+[12.649s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.649s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;36m[Knote: [m[K‘[01m[K(((((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Transpose<const Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0> > >::ret) == 0) && (((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Transpose<Eigen::Matrix<double, 1, 2> > >::ret) == 0)) || ((((((int)Eigen::Transpose<const Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0> >::RowsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::Transpose<Eigen::Matrix<double, 1, 2> >::RowsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Transpose<const Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0> >::RowsAtCompileTime) == ((int)Eigen::Transpose<Eigen::Matrix<double, 1, 2> >::RowsAtCompileTime))) && (((((int)Eigen::Transpose<const Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0> >::ColsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::Transpose<Eigen::Matrix<double, 1, 2> >::ColsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Transpose<const Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0> >::ColsAtCompileTime) == ((int)Eigen::Transpose<Eigen::Matrix<double, 1, 2> >::ColsAtCompileTime)))))[m[K’ evaluates to false
+[12.650s]   175 |      [01;36m[K( \[m[K
+[12.650s]       |      [01;36m[K~~~[m[K
+[12.650s]   176 | [01;36m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[12.650s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.650s]   177 | [01;36m[K    || (\[m[K
+[12.650s]       |     [01;36m[K^~~~~[m[K
+[12.650s]   178 | [01;36m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.650s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.650s]   179 | [01;36m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.650s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.650s]   180 | [01;36m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[12.650s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.650s]   181 | [01;36m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.650s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.651s]   182 | [01;36m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.651s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.651s]   183 | [01;36m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[12.651s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.651s]   184 | [01;36m[K       ) \[m[K
+[12.651s]       |        [01;36m[K~~~[m[K
+[12.651s]   185 | [01;36m[K     )[m[K
+[12.651s]       |      [01;36m[K~[m[K
+[12.651s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[12.651s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[12.651s]       |                                                      [01;36m[K^[m[K
+[12.652s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[12.652s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[12.652s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.652s] [01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:115:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[12.652s]   115 |       [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(Lhs, Rhs)
+[12.652s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.676s] /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 3, 3>; Src = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>; Func = Eigen::internal::sub_assign_op<double, double>][m[K’:
+[12.676s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:224:29:[m[K   required from ‘[01m[Kstatic void Eigen::internal::assignment_from_xpr_op_product<DstXprType, OtherXpr, ProductType, Func1, Func2>::run(DstXprType&, const SrcXprType&, const InitialFunc&) [with SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; InitialFunc = Eigen::internal::assign_op<double, double>; DstXprType = Eigen::Matrix<double, 3, 3>; OtherXpr = Eigen::Matrix<double, 3, 3>; ProductType = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>; Func1 = Eigen::internal::assign_op<double, double>; Func2 = Eigen::internal::sub_assign_op<double, double>][m[K’
+[12.676s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 3, 3>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; Func = Eigen::internal::assign_op<double, double>][m[K’
+[12.676s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; Derived = Eigen::Matrix<double, 3, 3>][m[K’
+[12.676s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:883:25:[m[K   required from ‘[01m[Kvoid Eigen::PlainObjectBase<Derived>::_init1(const Eigen::DenseBase<ElseDerived>&) [with T = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; Derived = Eigen::Matrix<double, 3, 3>][m[K’
+[12.676s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:332:31:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; _Scalar = double; int _Rows = 3; int _Cols = 3; int _Options = 0; int _MaxRows = 3; int _MaxCols = 3][m[K’
+[12.676s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:850:41:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&, const Func&, typename Eigen::internal::enable_if<Eigen::internal::evaluator_assume_aliasing<Src>::value, void*>::type) [with Dst = Eigen::Matrix<double, 3, 3>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; Func = Eigen::internal::assign_op<double, double>; typename Eigen::internal::enable_if<Eigen::internal::evaluator_assume_aliasing<Src>::value, void*>::type = void*; typename Eigen::internal::evaluator_traits<SrcXprType>::Shape = Eigen::DenseShape][m[K’
+[12.676s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:836:18:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&) [with Dst = Eigen::Matrix<double, 3, 3>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >][m[K’
+[12.676s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:779:32:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; Derived = Eigen::Matrix<double, 3, 3>][m[K’
+[12.676s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:225:24:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; _Scalar = double; int _Rows = 3; int _Cols = 3; int _Options = 0; int _MaxRows = 3; int _MaxCols = 3][m[K’
+[12.677s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:415:42:[m[K   required from here
+[12.677s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+[12.677s]   175 |      [01;31m[K( \[m[K
+[12.677s]       |      [01;31m[K~~~[m[K
+[12.677s]   176 | [01;31m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[12.677s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.677s]   177 | [01;31m[K    || (\[m[K
+[12.677s]       |     [01;31m[K^~~~~[m[K
+[12.677s]   178 | [01;31m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.677s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.677s]   179 | [01;31m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.677s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.677s]   180 | [01;31m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[12.677s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.677s]   181 | [01;31m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.677s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.678s]   182 | [01;31m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.678s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.678s]   183 | [01;31m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[12.678s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.678s]   184 | [01;31m[K       ) \[m[K
+[12.678s]       |        [01;31m[K~~~[m[K
+[12.678s]   185 | [01;31m[K     )[m[K
+[12.678s]       |      [01;31m[K~[m[K
+[12.678s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[12.678s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[12.678s]       |                                                      [01;36m[K^[m[K
+[12.678s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[12.678s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[12.678s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.678s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:887:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[12.678s]   887 |   [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(ActualDstTypeCleaned,Src)
+[12.678s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.679s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;36m[Knote: [m[K‘[01m[K(((((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Matrix<double, 3, 3> >::ret) == 0) && (((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >::ret) == 0)) || ((((((int)Eigen::Matrix<double, 3, 3>::RowsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>::RowsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Matrix<double, 3, 3>::RowsAtCompileTime) == ((int)Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>::RowsAtCompileTime))) && (((((int)Eigen::Matrix<double, 3, 3>::ColsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>::ColsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Matrix<double, 3, 3>::ColsAtCompileTime) == ((int)Eigen::Product<Eigen::Product<Eigen::Matrix<double, 2, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>::ColsAtCompileTime)))))[m[K’ evaluates to false
+[12.679s]   175 |      [01;36m[K( \[m[K
+[12.679s]       |      [01;36m[K~~~[m[K
+[12.679s]   176 | [01;36m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[12.679s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.679s]   177 | [01;36m[K    || (\[m[K
+[12.679s]       |     [01;36m[K^~~~~[m[K
+[12.679s]   178 | [01;36m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.679s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.679s]   179 | [01;36m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.679s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.679s]   180 | [01;36m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[12.679s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.680s]   181 | [01;36m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.680s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.680s]   182 | [01;36m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[12.680s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.680s]   183 | [01;36m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[12.680s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.680s]   184 | [01;36m[K       ) \[m[K
+[12.680s]       |        [01;36m[K~~~[m[K
+[12.680s]   185 | [01;36m[K     )[m[K
+[12.680s]       |      [01;36m[K~[m[K
+[12.680s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[12.680s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[12.680s]       |                                                      [01;36m[K^[m[K
+[12.680s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[12.680s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[12.681s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.681s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:887:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[12.681s]   887 |   [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(ActualDstTypeCleaned,Src)
+[12.681s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.870s] /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h: In instantiation of ‘[01m[Kconst Eigen::Product<Derived, OtherDerived, 1> Eigen::MatrixBase<Derived>::lazyProduct(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Matrix<double, 3, 3>; Derived = Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>][m[K’:
+[13.870s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:416:50:[m[K   required from ‘[01m[Kstatic void Eigen::internal::generic_product_impl<Lhs, Rhs, Eigen::DenseShape, Eigen::DenseShape, 3>::subTo(Dst&, const Lhs&, const Rhs&) [with Dst = Eigen::Matrix<double, 3, 3>; Lhs = Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>; Rhs = Eigen::Matrix<double, 3, 3>][m[K’
+[13.870s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:178:42:[m[K   required from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, Eigen::Product<Lhs, Rhs, Options>, Eigen::internal::sub_assign_op<Scalar, Scalar>, Eigen::internal::Dense2Dense, typename Eigen::internal::enable_if<((Options == Eigen::DefaultProduct) || (Options == Eigen::AliasFreeProduct))>::type>::run(DstXprType&, const SrcXprType&, const Eigen::internal::sub_assign_op<Scalar, Scalar>&) [with DstXprType = Eigen::Matrix<double, 3, 3>; Lhs = Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>; Rhs = Eigen::Matrix<double, 3, 3>; int Options = 0; Scalar = double; Eigen::internal::Assignment<DstXprType, Eigen::Product<Lhs, Rhs, Options>, Eigen::internal::sub_assign_op<Scalar, Scalar>, Eigen::internal::Dense2Dense, typename Eigen::internal::enable_if<((Options == Eigen::DefaultProduct) || (Options == Eigen::AliasFreeProduct))>::type>::SrcXprType = Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>][m[K’
+[13.870s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 3, 3>; Src = Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>; Func = Eigen::internal::sub_assign_op<double, double>][m[K’
+[13.870s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:224:29:[m[K   required from ‘[01m[Kstatic void Eigen::internal::assignment_from_xpr_op_product<DstXprType, OtherXpr, ProductType, Func1, Func2>::run(DstXprType&, const SrcXprType&, const InitialFunc&) [with SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; InitialFunc = Eigen::internal::assign_op<double, double>; DstXprType = Eigen::Matrix<double, 3, 3>; OtherXpr = Eigen::Matrix<double, 3, 3>; ProductType = Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0>; Func1 = Eigen::internal::assign_op<double, double>; Func2 = Eigen::internal::sub_assign_op<double, double>][m[K’
+[13.870s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 3, 3>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; Func = Eigen::internal::assign_op<double, double>][m[K’
+[13.870s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41:[m[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[13.870s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:332:31:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; _Scalar = double; int _Rows = 3; int _Cols = 3; int _Options = 0; int _MaxRows = 3; int _MaxCols = 3][m[K’
+[13.871s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:850:41:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&, const Func&, typename Eigen::internal::enable_if<Eigen::internal::evaluator_assume_aliasing<Src>::value, void*>::type) [with Dst = Eigen::Matrix<double, 3, 3>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; Func = Eigen::internal::assign_op<double, double>; typename Eigen::internal::enable_if<Eigen::internal::evaluator_assume_aliasing<Src>::value, void*>::type = void*; typename Eigen::internal::evaluator_traits<SrcXprType>::Shape = Eigen::DenseShape][m[K’
+[13.871s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:836:18:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&) [with Dst = Eigen::Matrix<double, 3, 3>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >][m[K’
+[13.871s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:779:32:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; Derived = Eigen::Matrix<double, 3, 3>][m[K’
+[13.871s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:225:24:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; _Scalar = double; int _Rows = 3; int _Cols = 3; int _Options = 0; int _MaxRows = 3; int _MaxCols = 3][m[K’
+[13.871s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:389:35:[m[K   required from here
+[13.871s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:458:38:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: INVALID_MATRIX_PRODUCT
+[13.871s]   458 |   EIGEN_STATIC_ASSERT([01;31m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[13.871s]       |                       [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[13.871s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[13.871s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[13.872s]       |                                                      [01;36m[K^[m[K
+[13.872s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:458:38:[m[K [01;36m[Knote: [m[K‘[01m[K(false || false)[m[K’ evaluates to false
+[13.872s]   458 |   EIGEN_STATIC_ASSERT([01;36m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[13.872s]       |                       [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[13.872s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[13.872s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[13.872s]       |                                                      [01;36m[K^[m[K
+[16.912s] /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h: In instantiation of ‘[01m[Kconst Eigen::Product<Derived, OtherDerived, 1> Eigen::MatrixBase<Derived>::lazyProduct(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Transpose<Eigen::Matrix<double, 1, 2> >; Derived = Eigen::Matrix<double, 3, 3>][m[K’:
+[16.912s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:402:50:[m[K   required from ‘[01m[Kstatic void Eigen::internal::generic_product_impl<Lhs, Rhs, Eigen::DenseShape, Eigen::DenseShape, 3>::evalTo(Dst&, const Lhs&, const Rhs&) [with Dst = Eigen::Matrix<double, 3, 1>; Lhs = Eigen::Matrix<double, 3, 3>; Rhs = Eigen::Transpose<Eigen::Matrix<double, 1, 2> >][m[K’
+[16.912s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:148:43:[m[K   required from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, Eigen::Product<Lhs, Rhs, Options>, Eigen::internal::assign_op<Scalar, Scalar>, Eigen::internal::Dense2Dense, typename Eigen::internal::enable_if<((Options == Eigen::DefaultProduct) || (Options == Eigen::AliasFreeProduct))>::type>::run(DstXprType&, const SrcXprType&, const Eigen::internal::assign_op<Scalar, Scalar>&) [with DstXprType = Eigen::Matrix<double, 3, 1>; Lhs = Eigen::Matrix<double, 3, 3>; Rhs = Eigen::Transpose<Eigen::Matrix<double, 1, 2> >; int Options = 0; Scalar = double; Eigen::internal::Assignment<DstXprType, Eigen::Product<Lhs, Rhs, Options>, Eigen::internal::assign_op<Scalar, Scalar>, Eigen::internal::Dense2Dense, typename Eigen::internal::enable_if<((Options == Eigen::DefaultProduct) || (Options == Eigen::AliasFreeProduct))>::type>::SrcXprType = Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>][m[K’
+[16.912s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 3, 1>; Src = Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>; Func = Eigen::internal::assign_op<double, double>][m[K’
+[16.912s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>; Derived = Eigen::Matrix<double, 3, 1>][m[K’
+[16.912s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:883:25:[m[K   required from ‘[01m[Kvoid Eigen::PlainObjectBase<Derived>::_init1(const Eigen::DenseBase<ElseDerived>&) [with T = Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>; OtherDerived = Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>; Derived = Eigen::Matrix<double, 3, 1>][m[K’
+[16.912s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:332:31:[m[K   [ skipping 7 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[16.912s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:148:43:[m[K   required from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, Eigen::Product<Lhs, Rhs, Options>, Eigen::internal::assign_op<Scalar, Scalar>, Eigen::internal::Dense2Dense, typename Eigen::internal::enable_if<((Options == Eigen::DefaultProduct) || (Options == Eigen::AliasFreeProduct))>::type>::run(DstXprType&, const SrcXprType&, const Eigen::internal::assign_op<Scalar, Scalar>&) [with DstXprType = Eigen::Matrix<double, -1, 1>; Lhs = Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>; Rhs = Eigen::Inverse<Eigen::Matrix<double, -1, -1> >; int Options = 0; Scalar = double; Eigen::internal::Assignment<DstXprType, Eigen::Product<Lhs, Rhs, Options>, Eigen::internal::assign_op<Scalar, Scalar>, Eigen::internal::Dense2Dense, typename Eigen::internal::enable_if<((Options == Eigen::DefaultProduct) || (Options == Eigen::AliasFreeProduct))>::type>::SrcXprType = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>][m[K’
+[16.912s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, -1, 1>; Src = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>; Func = Eigen::internal::assign_op<double, double>][m[K’
+[16.912s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>; Derived = Eigen::Matrix<double, -1, 1>][m[K’
+[16.912s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:594:19:[m[K   required from ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>; Derived = Eigen::Matrix<double, -1, 1>][m[K’
+[16.913s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:423:29:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>; _Scalar = double; int _Rows = -1; int _Cols = 1; int _Options = 0; int _MaxRows = -1; int _MaxCols = 1][m[K’
+[16.913s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:387:71:[m[K   required from here
+[16.913s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:458:38:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: INVALID_MATRIX_PRODUCT
+[16.913s]   458 |   EIGEN_STATIC_ASSERT([01;31m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[16.913s]       |                       [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[16.913s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[16.913s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[16.913s]       |                                                      [01;36m[K^[m[K
+[16.913s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:458:38:[m[K [01;36m[Knote: [m[K‘[01m[K(false || false)[m[K’ evaluates to false
+[16.913s]   458 |   EIGEN_STATIC_ASSERT([01;36m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[16.913s]       |                       [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[16.913s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[16.913s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[16.913s]       |                                                      [01;36m[K^[m[K
+[18.165s] /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h: In instantiation of ‘[01m[Kconst Eigen::Product<Derived, OtherDerived, 1> Eigen::MatrixBase<Derived>::lazyProduct(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Matrix<double, 3, 3>; Derived = Eigen::Matrix<double, 1, 2>][m[K’:
+[18.165s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:402:50:[m[K   required from ‘[01m[Kstatic void Eigen::internal::generic_product_impl<Lhs, Rhs, Eigen::DenseShape, Eigen::DenseShape, 3>::evalTo(Dst&, const Lhs&, const Rhs&) [with Dst = Eigen::Matrix<double, 1, 3>; Lhs = Eigen::Matrix<double, 1, 2>; Rhs = Eigen::Matrix<double, 3, 3>][m[K’
+[18.165s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:124:75:[m[K   required from ‘[01m[KEigen::internal::product_evaluator<Eigen::Product<Lhs, Rhs, Option>, ProductTag, LhsShape, RhsShape>::product_evaluator(const XprType&) [with Lhs = Eigen::Matrix<double, 1, 2>; Rhs = Eigen::Matrix<double, 3, 3>; int Options = 0; int ProductTag = 3; LhsShape = Eigen::DenseShape; RhsShape = Eigen::DenseShape; typename Eigen::internal::traits<typename Eigen::Product<Lhs, Rhs, Option>::Rhs>::Scalar = double; typename Eigen::Product<Lhs, Rhs, Option>::Rhs = Eigen::Matrix<double, 3, 3>; typename Eigen::internal::traits<typename Eigen::Product<Lhs, Rhs, Option>::Lhs>::Scalar = double; typename Eigen::Product<Lhs, Rhs, Option>::Lhs = Eigen::Matrix<double, 1, 2>; Eigen::internal::product_evaluator<Eigen::Product<Lhs, Rhs, Option>, ProductTag, LhsShape, RhsShape>::XprType = Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>][m[K’
+[18.165s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:35:90:[m[K   required from ‘[01m[KEigen::internal::evaluator<Eigen::Product<Lhs, Rhs, Option> >::evaluator(const XprType&) [with Lhs = Eigen::Matrix<double, 1, 2>; Rhs = Eigen::Matrix<double, 3, 3>; int Options = 0; Eigen::internal::evaluator<Eigen::Product<Lhs, Rhs, Option> >::XprType = Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>][m[K’
+[18.165s] [01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:104:54:[m[K   required from ‘[01m[KEigen::internal::evaluator<const T>::evaluator(const T&) [with T = Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>][m[K’
+[18.165s] [01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:317:48:[m[K   required from ‘[01m[KEigen::internal::unary_evaluator<Eigen::Transpose<Derived>, Eigen::internal::IndexBased>::unary_evaluator(const XprType&) [with ArgType = const Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>; typename Eigen::Transpose<Derived>::Scalar = double; Eigen::internal::unary_evaluator<Eigen::Transpose<Derived>, Eigen::internal::IndexBased>::XprType = Eigen::Transpose<const Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0> >][m[K’
+[18.166s] [01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:94:46:[m[K   [ skipping 11 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[18.167s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:223:29:[m[K   required from ‘[01m[Kstatic void Eigen::internal::assignment_from_xpr_op_product<DstXprType, OtherXpr, ProductType, Func1, Func2>::run(DstXprType&, const SrcXprType&, const InitialFunc&) [with SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; InitialFunc = Eigen::internal::assign_op<double, double>; DstXprType = Eigen::Matrix<double, -1, -1>; OtherXpr = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>; ProductType = Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0>; Func1 = Eigen::internal::assign_op<double, double>; Func2 = Eigen::internal::add_assign_op<double, double>][m[K’
+[18.167s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, -1, -1>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; Func = Eigen::internal::assign_op<double, double>][m[K’
+[18.167s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; Derived = Eigen::Matrix<double, -1, -1>][m[K’
+[18.168s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:594:19:[m[K   required from ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; Derived = Eigen::Matrix<double, -1, -1>][m[K’
+[18.168s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:423:29:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[18.168s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:386:100:[m[K   required from here
+[18.168s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:458:38:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: INVALID_MATRIX_PRODUCT
+[18.168s]   458 |   EIGEN_STATIC_ASSERT([01;31m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[18.168s]       |                       [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[18.168s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[18.168s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[18.168s]       |                                                      [01;36m[K^[m[K
+[18.168s] [01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:458:38:[m[K [01;36m[Knote: [m[K‘[01m[K(false || false)[m[K’ evaluates to false
+[18.168s]   458 |   EIGEN_STATIC_ASSERT([01;36m[KProductIsValid || SameSizes[m[K, INVALID_MATRIX_PRODUCT)
+[18.168s]       |                       [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[18.168s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[18.169s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[18.169s]       |                                                      [01;36m[K^[m[K
+[18.169s] /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h: In instantiation of ‘[01m[KEigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::CwiseBinaryOp(const Lhs&, const Rhs&, const BinaryOp&) [with BinaryOp = Eigen::internal::scalar_product_op<double, double>; LhsType = const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, -1, 2>, 1, 2, false> >; RhsType = const Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, -1, 2>, 1, 2, false> >; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Rhs = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>][m[K’:
+[18.169s] [01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h:25:10:[m[K   required from ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<typename Eigen::internal::traits<T>::Scalar, typename Eigen::internal::traits<OtherDerived>::Scalar>, const Derived, const OtherDerived> Eigen::MatrixBase<Derived>::cwiseProduct(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; Derived = Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, -1, 2>, 1, 2, false> >; typename Eigen::internal::traits<OtherDerived>::Scalar = double; typename Eigen::internal::traits<T>::Scalar = double][m[K’
+[18.169s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:606:52:[m[K   required from ‘[01m[Kconst CoeffReturnType Eigen::internal::product_evaluator<Eigen::Product<Lhs, Rhs, 1>, ProductTag, Eigen::DenseShape, Eigen::DenseShape>::coeff(Eigen::Index, Eigen::Index) const [with Lhs = Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>; Rhs = Eigen::Matrix<double, 3, 3>; int ProductTag = 3; typename Eigen::internal::traits<typename Eigen::Product<Lhs, Rhs, 1>::Rhs>::Scalar = double; typename Eigen::Product<Lhs, Rhs, 1>::Rhs = Eigen::Matrix<double, 3, 3>; typename Eigen::internal::traits<typename Eigen::Product<Lhs, Rhs, 1>::Lhs>::Scalar = double; typename Eigen::Product<Lhs, Rhs, 1>::Lhs = Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>; Eigen::internal::product_evaluator<Eigen::Product<Lhs, Rhs, 1>, ProductTag, Eigen::DenseShape, Eigen::DenseShape>::CoeffReturnType = double; Eigen::Index = long int][m[K’
+[18.169s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:654:63:[m[K   required from ‘[01m[Kvoid Eigen::internal::generic_dense_assignment_kernel<DstEvaluatorTypeT, SrcEvaluatorTypeT, Functor, Version>::assignCoeff(Eigen::Index, Eigen::Index) [with DstEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Matrix<double, 3, 3> >; SrcEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 1> >; Functor = Eigen::internal::sub_assign_op<double, double>; int Version = 0; Eigen::Index = long int][m[K’
+[18.169s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:668:16:[m[K   required from ‘[01m[Kvoid Eigen::internal::generic_dense_assignment_kernel<DstEvaluatorTypeT, SrcEvaluatorTypeT, Functor, Version>::assignCoeffByOuterInner(Eigen::Index, Eigen::Index) [with DstEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Matrix<double, 3, 3> >; SrcEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 1> >; Functor = Eigen::internal::sub_assign_op<double, double>; int Version = 0; Eigen::Index = long int][m[K’
+[18.169s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:227:35:[m[K   required from ‘[01m[Kstatic void Eigen::internal::copy_using_evaluator_DefaultTraversal_InnerUnrolling<Kernel, Index_, Stop>::run(Kernel&, Eigen::Index) [with Kernel = Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, 3, 3> >, Eigen::internal::evaluator<Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 1> >, Eigen::internal::sub_assign_op<double, double>, 0>; int Index_ = 2; int Stop = 3; Eigen::Index = long int][m[K’
+[18.169s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:600:101:[m[K   [ skipping 11 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[18.169s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:332:31:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; _Scalar = double; int _Rows = 3; int _Cols = 3; int _Options = 0; int _MaxRows = 3; int _MaxCols = 3][m[K’
+[18.169s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:850:41:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&, const Func&, typename Eigen::internal::enable_if<Eigen::internal::evaluator_assume_aliasing<Src>::value, void*>::type) [with Dst = Eigen::Matrix<double, 3, 3>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; Func = Eigen::internal::assign_op<double, double>; typename Eigen::internal::enable_if<Eigen::internal::evaluator_assume_aliasing<Src>::value, void*>::type = void*; typename Eigen::internal::evaluator_traits<SrcXprType>::Shape = Eigen::DenseShape][m[K’
+[18.169s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:836:18:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&) [with Dst = Eigen::Matrix<double, 3, 3>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >][m[K’
+[18.169s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:779:32:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; Derived = Eigen::Matrix<double, 3, 3>][m[K’
+[18.169s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:225:24:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 3, 3>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, -1, 1>, Eigen::Matrix<double, 1, 2>, 0>, Eigen::Matrix<double, 3, 3>, 0> >; _Scalar = double; int _Rows = 3; int _Cols = 3; int _Options = 0; int _MaxRows = 3; int _MaxCols = 3][m[K’
+[18.169s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:389:35:[m[K   required from here
+[18.169s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+[18.170s]   175 |      [01;31m[K( \[m[K
+[18.170s]       |      [01;31m[K~~~[m[K
+[18.170s]   176 | [01;31m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[18.170s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.170s]   177 | [01;31m[K    || (\[m[K
+[18.170s]       |     [01;31m[K^~~~~[m[K
+[18.170s]   178 | [01;31m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[18.170s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.170s]   179 | [01;31m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[18.170s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.170s]   180 | [01;31m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[18.170s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.170s]   181 | [01;31m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[18.170s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.170s]   182 | [01;31m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[18.170s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.170s]   183 | [01;31m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[18.170s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.171s]   184 | [01;31m[K       ) \[m[K
+[18.171s]       |        [01;31m[K~~~[m[K
+[18.171s]   185 | [01;31m[K     )[m[K
+[18.171s]       |      [01;31m[K~[m[K
+[18.171s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[18.171s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[18.171s]       |                                                      [01;36m[K^[m[K
+[18.171s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[18.171s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[18.171s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.171s] [01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:115:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[18.171s]   115 |       [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(Lhs, Rhs)
+[18.171s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.171s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;36m[Knote: [m[K‘[01m[K(((((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, -1, 2>, 1, 2, false> > >::ret) == 0) && (((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true> >::ret) == 0)) || ((((((int)Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, -1, 2>, 1, 2, false> >::RowsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>::RowsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, -1, 2>, 1, 2, false> >::RowsAtCompileTime) == ((int)Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>::RowsAtCompileTime))) && (((((int)Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, -1, 2>, 1, 2, false> >::ColsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>::ColsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, -1, 2>, 1, 2, false> >::ColsAtCompileTime) == ((int)Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>::ColsAtCompileTime)))))[m[K’ evaluates to false
+[18.172s]   175 |      [01;36m[K( \[m[K
+[18.172s]       |      [01;36m[K~~~[m[K
+[18.172s]   176 | [01;36m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[18.172s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.172s]   177 | [01;36m[K    || (\[m[K
+[18.172s]       |     [01;36m[K^~~~~[m[K
+[18.172s]   178 | [01;36m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[18.172s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.172s]   179 | [01;36m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[18.172s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.172s]   180 | [01;36m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[18.172s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.172s]   181 | [01;36m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[18.172s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.172s]   182 | [01;36m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[18.173s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.173s]   183 | [01;36m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[18.173s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.173s]   184 | [01;36m[K       ) \[m[K
+[18.173s]       |        [01;36m[K~~~[m[K
+[18.173s]   185 | [01;36m[K     )[m[K
+[18.173s]       |      [01;36m[K~[m[K
+[18.173s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[18.173s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[18.173s]       |                                                      [01;36m[K^[m[K
+[18.173s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[18.173s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[18.174s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.174s] [01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:115:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[18.174s]   115 |       [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(Lhs, Rhs)
+[18.174s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.446s] /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h: In instantiation of ‘[01m[KEigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::CwiseBinaryOp(const Lhs&, const Rhs&, const BinaryOp&) [with BinaryOp = Eigen::internal::scalar_product_op<double, double>; LhsType = const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 3, 3>, 1, 3, false> >; RhsType = const Eigen::Block<const Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 2, 1, true>; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 3, 3>, 1, 3, false> >; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Rhs = Eigen::Block<const Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 2, 1, true>][m[K’:
+[19.446s] [01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h:25:10:[m[K   required from ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<typename Eigen::internal::traits<T>::Scalar, typename Eigen::internal::traits<OtherDerived>::Scalar>, const Derived, const OtherDerived> Eigen::MatrixBase<Derived>::cwiseProduct(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Block<const Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 2, 1, true>; Derived = Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 3, 3>, 1, 3, false> >; typename Eigen::internal::traits<OtherDerived>::Scalar = double; typename Eigen::internal::traits<T>::Scalar = double][m[K’
+[19.447s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:606:52:[m[K   required from ‘[01m[Kconst CoeffReturnType Eigen::internal::product_evaluator<Eigen::Product<Lhs, Rhs, 1>, ProductTag, Eigen::DenseShape, Eigen::DenseShape>::coeff(Eigen::Index, Eigen::Index) const [with Lhs = Eigen::Matrix<double, 3, 3>; Rhs = Eigen::Transpose<Eigen::Matrix<double, 1, 2> >; int ProductTag = 3; typename Eigen::internal::traits<typename Eigen::Product<Lhs, Rhs, 1>::Rhs>::Scalar = double; typename Eigen::Product<Lhs, Rhs, 1>::Rhs = Eigen::Transpose<Eigen::Matrix<double, 1, 2> >; typename Eigen::internal::traits<typename Eigen::Product<Lhs, Rhs, 1>::Lhs>::Scalar = double; typename Eigen::Product<Lhs, Rhs, 1>::Lhs = Eigen::Matrix<double, 3, 3>; Eigen::internal::product_evaluator<Eigen::Product<Lhs, Rhs, 1>, ProductTag, Eigen::DenseShape, Eigen::DenseShape>::CoeffReturnType = double; Eigen::Index = long int][m[K’
+[19.447s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:654:63:[m[K   required from ‘[01m[Kvoid Eigen::internal::generic_dense_assignment_kernel<DstEvaluatorTypeT, SrcEvaluatorTypeT, Functor, Version>::assignCoeff(Eigen::Index, Eigen::Index) [with DstEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >; SrcEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 1> >; Functor = Eigen::internal::assign_op<double, double>; int Version = 0; Eigen::Index = long int][m[K’
+[19.447s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:668:16:[m[K   required from ‘[01m[Kvoid Eigen::internal::generic_dense_assignment_kernel<DstEvaluatorTypeT, SrcEvaluatorTypeT, Functor, Version>::assignCoeffByOuterInner(Eigen::Index, Eigen::Index) [with DstEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >; SrcEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 1> >; Functor = Eigen::internal::assign_op<double, double>; int Version = 0; Eigen::Index = long int][m[K’
+[19.448s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:211:35:[m[K   required from ‘[01m[Kstatic void Eigen::internal::copy_using_evaluator_DefaultTraversal_CompleteUnrolling<Kernel, Index, Stop>::run(Kernel&) [with Kernel = Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >, Eigen::internal::evaluator<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 1> >, Eigen::internal::assign_op<double, double>, 0>; int Index = 2; int Stop = 3][m[K’
+[19.448s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:456:92:[m[K   [ skipping 16 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[19.448s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:148:43:[m[K   required from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, Eigen::Product<Lhs, Rhs, Options>, Eigen::internal::assign_op<Scalar, Scalar>, Eigen::internal::Dense2Dense, typename Eigen::internal::enable_if<((Options == Eigen::DefaultProduct) || (Options == Eigen::AliasFreeProduct))>::type>::run(DstXprType&, const SrcXprType&, const Eigen::internal::assign_op<Scalar, Scalar>&) [with DstXprType = Eigen::Matrix<double, -1, 1>; Lhs = Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>; Rhs = Eigen::Inverse<Eigen::Matrix<double, -1, -1> >; int Options = 0; Scalar = double; Eigen::internal::Assignment<DstXprType, Eigen::Product<Lhs, Rhs, Options>, Eigen::internal::assign_op<Scalar, Scalar>, Eigen::internal::Dense2Dense, typename Eigen::internal::enable_if<((Options == Eigen::DefaultProduct) || (Options == Eigen::AliasFreeProduct))>::type>::SrcXprType = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>][m[K’
+[19.448s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, -1, 1>; Src = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>; Func = Eigen::internal::assign_op<double, double>][m[K’
+[19.448s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>; Derived = Eigen::Matrix<double, -1, 1>][m[K’
+[19.448s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:594:19:[m[K   required from ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>; Derived = Eigen::Matrix<double, -1, 1>][m[K’
+[19.449s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:423:29:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 3, 3>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, Eigen::Inverse<Eigen::Matrix<double, -1, -1> >, 0>; _Scalar = double; int _Rows = -1; int _Cols = 1; int _Options = 0; int _MaxRows = -1; int _MaxCols = 1][m[K’
+[19.449s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:387:71:[m[K   required from here
+[19.449s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+[19.449s]   175 |      [01;31m[K( \[m[K
+[19.450s]       |      [01;31m[K~~~[m[K
+[19.450s]   176 | [01;31m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[19.450s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.450s]   177 | [01;31m[K    || (\[m[K
+[19.450s]       |     [01;31m[K^~~~~[m[K
+[19.450s]   178 | [01;31m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[19.450s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.451s]   179 | [01;31m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[19.451s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.451s]   180 | [01;31m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[19.451s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.451s]   181 | [01;31m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[19.451s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.451s]   182 | [01;31m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[19.451s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.451s]   183 | [01;31m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[19.451s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.452s]   184 | [01;31m[K       ) \[m[K
+[19.452s]       |        [01;31m[K~~~[m[K
+[19.452s]   185 | [01;31m[K     )[m[K
+[19.452s]       |      [01;31m[K~[m[K
+[19.452s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[19.452s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[19.452s]       |                                                      [01;36m[K^[m[K
+[19.452s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[19.452s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[19.452s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.452s] [01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:115:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[19.452s]   115 |       [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(Lhs, Rhs)
+[19.453s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.453s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;36m[Knote: [m[K‘[01m[K(((((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 3, 3>, 1, 3, false> > >::ret) == 0) && (((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Block<const Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 2, 1, true> >::ret) == 0)) || ((((((int)Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 3, 3>, 1, 3, false> >::RowsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::Block<const Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 2, 1, true>::RowsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 3, 3>, 1, 3, false> >::RowsAtCompileTime) == ((int)Eigen::Block<const Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 2, 1, true>::RowsAtCompileTime))) && (((((int)Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 3, 3>, 1, 3, false> >::ColsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::Block<const Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 2, 1, true>::ColsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 3, 3>, 1, 3, false> >::ColsAtCompileTime) == ((int)Eigen::Block<const Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 2, 1, true>::ColsAtCompileTime)))))[m[K’ evaluates to false
+[19.453s]   175 |      [01;36m[K( \[m[K
+[19.453s]       |      [01;36m[K~~~[m[K
+[19.453s]   176 | [01;36m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[19.453s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.453s]   177 | [01;36m[K    || (\[m[K
+[19.453s]       |     [01;36m[K^~~~~[m[K
+[19.453s]   178 | [01;36m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[19.453s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.453s]   179 | [01;36m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[19.453s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.454s]   180 | [01;36m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[19.454s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.454s]   181 | [01;36m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[19.454s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.454s]   182 | [01;36m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[19.454s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.454s]   183 | [01;36m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[19.454s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.454s]   184 | [01;36m[K       ) \[m[K
+[19.454s]       |        [01;36m[K~~~[m[K
+[19.454s]   185 | [01;36m[K     )[m[K
+[19.454s]       |      [01;36m[K~[m[K
+[19.454s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[19.455s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[19.455s]       |                                                      [01;36m[K^[m[K
+[19.455s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[19.455s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[19.455s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.455s] [01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:115:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[19.455s]   115 |       [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(Lhs, Rhs)
+[19.455s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.353s] /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h: In instantiation of ‘[01m[KEigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::CwiseBinaryOp(const Lhs&, const Rhs&, const BinaryOp&) [with BinaryOp = Eigen::internal::scalar_product_op<double, double>; LhsType = const Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 1, 2>, 1, 2, true> >; RhsType = const Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 1, 2>, 1, 2, true> >; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Rhs = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>][m[K’:
+[20.353s] [01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h:25:10:[m[K   required from ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<typename Eigen::internal::traits<T>::Scalar, typename Eigen::internal::traits<OtherDerived>::Scalar>, const Derived, const OtherDerived> Eigen::MatrixBase<Derived>::cwiseProduct(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; Derived = Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 1, 2>, 1, 2, true> >; typename Eigen::internal::traits<OtherDerived>::Scalar = double; typename Eigen::internal::traits<T>::Scalar = double][m[K’
+[20.353s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:618:52:[m[K   required from ‘[01m[Kconst CoeffReturnType Eigen::internal::product_evaluator<Eigen::Product<Lhs, Rhs, 1>, ProductTag, Eigen::DenseShape, Eigen::DenseShape>::coeff(Eigen::Index) const [with Lhs = Eigen::Matrix<double, 1, 2>; Rhs = Eigen::Matrix<double, 3, 3>; int ProductTag = 3; typename Eigen::internal::traits<typename Eigen::Product<Lhs, Rhs, 1>::Rhs>::Scalar = double; typename Eigen::Product<Lhs, Rhs, 1>::Rhs = Eigen::Matrix<double, 3, 3>; typename Eigen::internal::traits<typename Eigen::Product<Lhs, Rhs, 1>::Lhs>::Scalar = double; typename Eigen::Product<Lhs, Rhs, 1>::Lhs = Eigen::Matrix<double, 1, 2>; Eigen::internal::product_evaluator<Eigen::Product<Lhs, Rhs, 1>, ProductTag, Eigen::DenseShape, Eigen::DenseShape>::CoeffReturnType = double; Eigen::Index = long int][m[K’
+[20.353s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:660:61:[m[K   required from ‘[01m[Kvoid Eigen::internal::generic_dense_assignment_kernel<DstEvaluatorTypeT, SrcEvaluatorTypeT, Functor, Version>::assignCoeff(Eigen::Index) [with DstEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Matrix<double, 1, 3> >; SrcEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 1> >; Functor = Eigen::internal::assign_op<double, double>; int Version = 0; Eigen::Index = long int][m[K’
+[20.353s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:247:23:[m[K   required from ‘[01m[Kstatic void Eigen::internal::copy_using_evaluator_LinearTraversal_CompleteUnrolling<Kernel, Index, Stop>::run(Kernel&) [with Kernel = Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, 1, 3> >, Eigen::internal::evaluator<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 1> >, Eigen::internal::assign_op<double, double>, 0>; int Index = 0; int Stop = 3][m[K’
+[20.353s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:528:106:[m[K   required from ‘[01m[Kstatic void Eigen::internal::dense_assignment_loop<Kernel, 1, 2>::run(Kernel&) [with Kernel = Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, 1, 3> >, Eigen::internal::evaluator<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 1> >, Eigen::internal::assign_op<double, double>, 0>][m[K’
+[20.353s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:785:37:[m[K   [ skipping 19 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[20.353s] [01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:223:29:[m[K   required from ‘[01m[Kstatic void Eigen::internal::assignment_from_xpr_op_product<DstXprType, OtherXpr, ProductType, Func1, Func2>::run(DstXprType&, const SrcXprType&, const InitialFunc&) [with SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; InitialFunc = Eigen::internal::assign_op<double, double>; DstXprType = Eigen::Matrix<double, -1, -1>; OtherXpr = Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>; ProductType = Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0>; Func1 = Eigen::internal::assign_op<double, double>; Func2 = Eigen::internal::add_assign_op<double, double>][m[K’
+[20.353s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, -1, -1>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; Func = Eigen::internal::assign_op<double, double>][m[K’
+[20.354s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; Derived = Eigen::Matrix<double, -1, -1>][m[K’
+[20.354s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:594:19:[m[K   required from ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; Derived = Eigen::Matrix<double, -1, -1>][m[K’
+[20.354s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:423:29:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, const Eigen::Product<Eigen::Product<Eigen::Matrix<double, 1, 2>, Eigen::Matrix<double, 3, 3>, 0>, Eigen::Transpose<Eigen::Matrix<double, 1, 2> >, 0>, const Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, -1> > >, Eigen::Transpose<Eigen::Matrix<double, -1, -1> >, 0> >; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’
+[20.354s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:386:100:[m[K   required from here
+[20.354s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+[20.354s]   175 |      [01;31m[K( \[m[K
+[20.354s]       |      [01;31m[K~~~[m[K
+[20.354s]   176 | [01;31m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[20.354s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.354s]   177 | [01;31m[K    || (\[m[K
+[20.354s]       |     [01;31m[K^~~~~[m[K
+[20.354s]   178 | [01;31m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[20.354s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.354s]   179 | [01;31m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[20.354s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.354s]   180 | [01;31m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[20.355s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.355s]   181 | [01;31m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[20.355s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.355s]   182 | [01;31m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[20.355s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.355s]   183 | [01;31m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[20.355s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.355s]   184 | [01;31m[K       ) \[m[K
+[20.355s]       |        [01;31m[K~~~[m[K
+[20.355s]   185 | [01;31m[K     )[m[K
+[20.355s]       |      [01;31m[K~[m[K
+[20.356s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[20.356s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[20.356s]       |                                                      [01;36m[K^[m[K
+[20.356s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[20.356s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[20.356s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.356s] [01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:115:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[20.356s]   115 |       [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(Lhs, Rhs)
+[20.356s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.356s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:177:5:[m[K [01;36m[Knote: [m[K‘[01m[K(((((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 1, 2>, 1, 2, true> > >::ret) == 0) && (((int)Eigen::internal::size_of_xpr_at_compile_time<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true> >::ret) == 0)) || ((((((int)Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 1, 2>, 1, 2, true> >::RowsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>::RowsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 1, 2>, 1, 2, true> >::RowsAtCompileTime) == ((int)Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>::RowsAtCompileTime))) && (((((int)Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 1, 2>, 1, 2, true> >::ColsAtCompileTime) == ((int)Eigen::Dynamic)) || (((int)Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>::ColsAtCompileTime) == ((int)Eigen::Dynamic))) || (((int)Eigen::Transpose<const Eigen::Block<const Eigen::Matrix<double, 1, 2>, 1, 2, true> >::ColsAtCompileTime) == ((int)Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>::ColsAtCompileTime)))))[m[K’ evaluates to false
+[20.356s]   175 |      [01;36m[K( \[m[K
+[20.356s]       |      [01;36m[K~~~[m[K
+[20.356s]   176 | [01;36m[K        (int(Eigen::internal::size_of_xpr_at_compile_time<TYPE0>::ret)==0 && int(Eigen::internal::size_of_xpr_at_compile_time<TYPE1>::ret)==0) \[m[K
+[20.356s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.357s]   177 | [01;36m[K    || (\[m[K
+[20.357s]       |     [01;36m[K^~~~~[m[K
+[20.357s]   178 | [01;36m[K          (int(TYPE0::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[20.357s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.357s]   179 | [01;36m[K        || int(TYPE1::RowsAtCompileTime)==Eigen::Dynamic \[m[K
+[20.357s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.357s]   180 | [01;36m[K        || int(TYPE0::RowsAtCompileTime)==int(TYPE1::RowsAtCompileTime)) \[m[K
+[20.357s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.357s]   181 | [01;36m[K      &&  (int(TYPE0::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[20.357s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.357s]   182 | [01;36m[K        || int(TYPE1::ColsAtCompileTime)==Eigen::Dynamic \[m[K
+[20.357s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.357s]   183 | [01;36m[K        || int(TYPE0::ColsAtCompileTime)==int(TYPE1::ColsAtCompileTime))\[m[K
+[20.357s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.357s]   184 | [01;36m[K       ) \[m[K
+[20.357s]       |        [01;36m[K~~~[m[K
+[20.358s]   185 | [01;36m[K     )[m[K
+[20.358s]       |      [01;36m[K~[m[K
+[20.358s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:33:54:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+[20.358s]    33 |     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert([01;36m[KX[m[K,#MSG);
+[20.358s]       |                                                      [01;36m[K^[m[K
+[20.358s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:194:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K’
+[20.358s]   194 |      [01;36m[KEIGEN_PREDICATE_SAME_MATRIX_SIZE[m[K(TYPE0,TYPE1),\
+[20.358s]       |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.358s] [01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:115:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+[20.358s]   115 |       [01;36m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(Lhs, Rhs)
+[20.358s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.550s] gmake[2]: *** [CMakeFiles/estimator.dir/build.make:76: CMakeFiles/estimator.dir/src/estimator.cpp.o] Error 1
+[25.550s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/estimator.dir/all] Error 2
+[25.551s] gmake: *** [Makefile:146: all] Error 2
+[25.554s] Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone' returned '2': CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone -- -j4 -l4

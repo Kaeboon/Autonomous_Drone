@@ -1,0 +1,8 @@
+{
+  "package_name": "ee4308_interfaces",
+  "non_idl_tuples": [
+    "/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_interfaces:action/ProcessDroneState.action",
+    "/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_interfaces:srv/Waypoint.srv",
+    "/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_interfaces:srv/GetWaypoint.srv"
+  ]
+}

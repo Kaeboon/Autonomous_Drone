@@ -1,0 +1,26 @@
+In file included from [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/src/estimator.cpp:4[m[K:
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:[m[K In member function ‘[01m[KEigen::Vector3d ee4308::drone::ROSNodeEstimator::getECEF(const double&, const double&, const double&, const double&, const double&)[m[K’:
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:296:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksin_lat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  296 |             [01;35m[Kconst double &sin_lat[m[K, const double &cos_lat,
+      |             [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:296:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcos_lat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  296 |             const double &sin_lat, [01;35m[Kconst double &cos_lat[m[K,
+      |                                    [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:297:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksin_lon[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  297 |             [01;35m[Kconst double &sin_lon[m[K, const double &cos_lon,
+      |             [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:297:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcos_lon[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  297 |             const double &sin_lon, [01;35m[Kconst double &cos_lon[m[K,
+      |                                    [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:298:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kalt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  298 |             [01;35m[Kconst double &alt[m[K)
+      |             [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:[m[K In member function ‘[01m[Kvoid ee4308::drone::ROSNodeEstimator::correctFromGps(sensor_msgs::msg::NavSatFix)[m[K’:
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:326:29:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KECEF[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  326 |             Eigen::Vector3d [01;35m[KECEF[m[K = getECEF(sin_lat, cos_lat, sin_lon, cos_lon, alt);
+      |                             [01;35m[K^~~~[m[K
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:[m[K In member function ‘[01m[Kvoid ee4308::drone::ROSNodeEstimator::correctFromMagnetic(geometry_msgs::msg::Vector3Stamped)[m[K’:
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:360:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  360 |  void correctFromMagnetic([01;35m[Kconst geometry_msgs::msg::Vector3Stamped msg[m[K)
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+

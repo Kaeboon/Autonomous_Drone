@@ -1,0 +1,26 @@
+[ 50%] Built target gazebo_ros_magnetic
+[100%] Built target gazebo_ros_baro
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins//gazebo_ros_baro.hpp
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins//gazebo_ros_magnetic.hpp
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins//sensor_model.h
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins//update_timer.h
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib/libgazebo_ros_baro.so
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib/libgazebo_ros_magnetic.so
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/ee4308_gazebo_plugins
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/ee4308_gazebo_plugins
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/environment/path.sh
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/environment/path.dsv
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/local_setup.bash
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/local_setup.sh
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/local_setup.zsh
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/local_setup.dsv
+-- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.dsv
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ament_index/resource_index/packages/ee4308_gazebo_plugins
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/cmake/ee4308_gazebo_pluginsConfig.cmake
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/cmake/ee4308_gazebo_pluginsConfig-version.cmake
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.xml

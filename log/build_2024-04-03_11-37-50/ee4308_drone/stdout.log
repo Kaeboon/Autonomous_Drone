@@ -1,0 +1,7 @@
+[ 20%] Built target behavior
+[ 40%] Built target teleop
+[ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/estimator.dir/src/estimator.cpp.o[0m
+[ 80%] Built target smoother
+[ 90%] [32m[1mLinking CXX executable controller[0m
+[ 90%] Built target controller

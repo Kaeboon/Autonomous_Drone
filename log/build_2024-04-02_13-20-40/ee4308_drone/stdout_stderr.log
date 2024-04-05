@@ -1,0 +1,52 @@
+[ 20%] Built target teleop
+[ 40%] Built target behavior
+[ 50%] [32mBuilding CXX object CMakeFiles/estimator.dir/src/estimator.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[ 80%] Built target smoother
+In file included from [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/src/controller.cpp:4[m[K:
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/controller.hpp:[m[K In member function ‘[01m[Kvoid ee4308::drone::ROSNodeController::getLookahead(const Pose&)[m[K’:
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/controller.hpp:309:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdrone_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  309 |         void getLookahead([01;35m[Kconst geometry_msgs::msg::Pose &drone_pose[m[K)
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/src/controller.cpp:4[m[K:
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/controller.hpp:[m[K In member function ‘[01m[Kvoid ee4308::drone::ROSNodeController::move(geometry_msgs::msg::Pose)[m[K’:
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/controller.hpp:421:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdrone_yaw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  421 |             double [01;35m[Kdrone_yaw[m[K = quaternionToYaw(drone_pose.orientation);
+      |                    [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/src/estimator.cpp:4[m[K:
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:[m[K In member function ‘[01m[Kvoid ee4308::drone::ROSNodeEstimator::correctFromSonar(sensor_msgs::msg::Range)[m[K’:
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:409:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  409 |         void correctFromSonar([01;35m[Kconst sensor_msgs::msg::Range msg[m[K)
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:[m[K In member function ‘[01m[Kvoid ee4308::drone::ROSNodeEstimator::correctFromMagnetic(geometry_msgs::msg::Vector3Stamped)[m[K’:
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:431:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  431 |         void correctFromMagnetic([01;35m[Kconst geometry_msgs::msg::Vector3Stamped msg[m[K)
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[ 90%] [32m[1mLinking CXX executable controller[0m
+[ 90%] Built target controller
+[100%] [32m[1mLinking CXX executable estimator[0m
+[100%] Built target estimator
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/teleop
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/behavior
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/controller
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/estimator
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/smoother
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ament_index/resource_index/package_run_dependencies/ee4308_drone
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ament_index/resource_index/parent_prefix_path/ee4308_drone
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/environment/path.sh
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/environment/path.dsv
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/local_setup.bash
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/local_setup.sh
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/local_setup.zsh
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/local_setup.dsv
+-- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.dsv
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ament_index/resource_index/packages/ee4308_drone
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/cmake/ee4308_droneConfig.cmake
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/cmake/ee4308_droneConfig-version.cmake
+-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.xml

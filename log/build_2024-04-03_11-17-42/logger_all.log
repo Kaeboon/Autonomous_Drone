@@ -1,0 +1,474 @@
+[1.123s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.123s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9bf269a0e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9bf2699600>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9bf2699600>>)
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.178s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kaeboon/KBoon/ee4308_proj2'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extension 'ignore'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extension 'ignore_ament_install'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extensions ['colcon_pkg']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extension 'colcon_pkg'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extensions ['colcon_meta']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extension 'colcon_meta'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extensions ['ros']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_bringup) by extension 'ros'
+[1.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ee4308_bringup' with type 'ros.ament_cmake' and name 'ee4308_bringup'
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_drone) by extensions ['ignore', 'ignore_ament_install']
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_drone) by extension 'ignore'
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_drone) by extension 'ignore_ament_install'
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_drone) by extensions ['colcon_pkg']
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_drone) by extension 'colcon_pkg'
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_drone) by extensions ['colcon_meta']
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_drone) by extension 'colcon_meta'
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_drone) by extensions ['ros']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_drone) by extension 'ros'
+[1.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ee4308_drone' with type 'ros.ament_cmake' and name 'ee4308_drone'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_gazebo_plugins) by extension 'ignore'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_gazebo_plugins) by extension 'ignore_ament_install'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_gazebo_plugins) by extensions ['colcon_pkg']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_gazebo_plugins) by extension 'colcon_pkg'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_gazebo_plugins) by extensions ['colcon_meta']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_gazebo_plugins) by extension 'colcon_meta'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_gazebo_plugins) by extensions ['ros']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_gazebo_plugins) by extension 'ros'
+[1.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ee4308_gazebo_plugins' with type 'ros.ament_cmake' and name 'ee4308_gazebo_plugins'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extension 'ignore'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extension 'ignore_ament_install'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extensions ['colcon_pkg']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extension 'colcon_pkg'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extensions ['colcon_meta']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extension 'colcon_meta'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extensions ['ros']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_interfaces) by extension 'ros'
+[1.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ee4308_interfaces' with type 'ros.ament_cmake' and name 'ee4308_interfaces'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extensions ['ignore', 'ignore_ament_install']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extension 'ignore'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extension 'ignore_ament_install'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extensions ['colcon_pkg']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extension 'colcon_pkg'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extensions ['colcon_meta']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extension 'colcon_meta'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extensions ['ros']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_lib) by extension 'ros'
+[1.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ee4308_lib' with type 'ros.ament_cmake' and name 'ee4308_lib'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extensions ['ignore', 'ignore_ament_install']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extension 'ignore'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extension 'ignore_ament_install'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extensions ['colcon_pkg']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extension 'colcon_pkg'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extensions ['colcon_meta']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extension 'colcon_meta'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extensions ['ros']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ee4308_turtle) by extension 'ros'
+[1.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ee4308_turtle' with type 'ros.ament_cmake' and name 'ee4308_turtle'
+[1.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.340s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/kaeboon/sjtu_drone/install
+[1.365s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/kaeboon/KBoon/ee4308_proj2/install
+[1.391s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 425 installed packages in /opt/ros/humble
+[1.406s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'cmake_args' from command line to 'None'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'cmake_target' from command line to 'None'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.530s] Level 5:colcon.colcon_core.verb:set package 'ee4308_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.530s] DEBUG:colcon.colcon_core.verb:Building package 'ee4308_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup', 'merge_install': False, 'path': '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_bringup', 'symlink_install': True, 'test_result_base': None}
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'ee4308_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'ee4308_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'ee4308_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'ee4308_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'ee4308_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'ee4308_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'ee4308_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'ee4308_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[1.547s] Level 5:colcon.colcon_core.verb:set package 'ee4308_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.547s] DEBUG:colcon.colcon_core.verb:Building package 'ee4308_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins', 'merge_install': False, 'path': '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_gazebo_plugins', 'symlink_install': True, 'test_result_base': None}
+[1.564s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'ee4308_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.565s] DEBUG:colcon.colcon_core.verb:Building package 'ee4308_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces', 'merge_install': False, 'path': '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_interfaces', 'symlink_install': True, 'test_result_base': None}
+[1.582s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'cmake_args' from command line to 'None'
+[1.582s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'cmake_target' from command line to 'None'
+[1.582s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.582s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'cmake_clean_cache' from command line to 'False'
+[1.582s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'cmake_clean_first' from command line to 'False'
+[1.582s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'cmake_force_configure' from command line to 'False'
+[1.582s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'ament_cmake_args' from command line to 'None'
+[1.582s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'catkin_cmake_args' from command line to 'None'
+[1.582s] Level 5:colcon.colcon_core.verb:set package 'ee4308_lib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.582s] DEBUG:colcon.colcon_core.verb:Building package 'ee4308_lib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib', 'merge_install': False, 'path': '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_lib', 'symlink_install': True, 'test_result_base': None}
+[1.599s] Level 5:colcon.colcon_core.verb:set package 'ee4308_drone' build argument 'cmake_args' from command line to 'None'
+[1.599s] Level 5:colcon.colcon_core.verb:set package 'ee4308_drone' build argument 'cmake_target' from command line to 'None'
+[1.599s] Level 5:colcon.colcon_core.verb:set package 'ee4308_drone' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.599s] Level 5:colcon.colcon_core.verb:set package 'ee4308_drone' build argument 'cmake_clean_cache' from command line to 'False'
+[1.599s] Level 5:colcon.colcon_core.verb:set package 'ee4308_drone' build argument 'cmake_clean_first' from command line to 'False'
+[1.599s] Level 5:colcon.colcon_core.verb:set package 'ee4308_drone' build argument 'cmake_force_configure' from command line to 'False'
+[1.599s] Level 5:colcon.colcon_core.verb:set package 'ee4308_drone' build argument 'ament_cmake_args' from command line to 'None'
+[1.599s] Level 5:colcon.colcon_core.verb:set package 'ee4308_drone' build argument 'catkin_cmake_args' from command line to 'None'
+[1.599s] Level 5:colcon.colcon_core.verb:set package 'ee4308_drone' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.599s] DEBUG:colcon.colcon_core.verb:Building package 'ee4308_drone' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone', 'merge_install': False, 'path': '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone', 'symlink_install': True, 'test_result_base': None}
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'cmake_args' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'cmake_target' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'cmake_clean_cache' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'cmake_clean_first' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'cmake_force_configure' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'ament_cmake_args' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'catkin_cmake_args' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'ee4308_turtle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.622s] DEBUG:colcon.colcon_core.verb:Building package 'ee4308_turtle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle', 'merge_install': False, 'path': '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_turtle', 'symlink_install': True, 'test_result_base': None}
+[1.640s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.659s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_interfaces' with build type 'ament_cmake'
+[1.659s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_interfaces'
+[1.679s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.679s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.679s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.764s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_lib' with build type 'ament_cmake'
+[1.765s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_lib'
+[1.791s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.791s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.889s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_bringup' with build type 'ament_cmake'
+[1.889s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_bringup'
+[1.908s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.908s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.987s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_gazebo_plugins' with build type 'ament_cmake'
+[1.988s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_gazebo_plugins'
+[2.010s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.010s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces -- -j4 -l4
+[2.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib -- -j4 -l4
+[2.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup -- -j4 -l4
+[2.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins -- -j4 -l4
+[2.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup -- -j4 -l4
+[2.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib -- -j4 -l4
+[2.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup
+[2.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins -- -j4 -l4
+[2.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_bringup)
+[2.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup
+[2.433s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup' for CMake module files
+[2.434s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup' for CMake config files
+[2.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_bringup', 'cmake_prefix_path')
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/hook/cmake_prefix_path.ps1'
+[2.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/hook/cmake_prefix_path.dsv'
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/hook/cmake_prefix_path.sh'
+[2.477s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/bin'
+[2.477s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/lib/pkgconfig/ee4308_bringup.pc'
+[2.477s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/lib/python3.10/site-packages'
+[2.478s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/bin'
+[2.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/package.ps1'
+[2.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/package.dsv'
+[2.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/package.sh'
+[2.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/package.bash'
+[2.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/package.zsh'
+[2.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/colcon-core/packages/ee4308_bringup)
+[2.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins
+[2.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib
+[2.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_bringup)
+[2.619s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup' for CMake module files
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup' for CMake config files
+[2.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_bringup', 'cmake_prefix_path')
+[2.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/hook/cmake_prefix_path.ps1'
+[2.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/hook/cmake_prefix_path.dsv'
+[2.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/hook/cmake_prefix_path.sh'
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/bin'
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/lib/pkgconfig/ee4308_bringup.pc'
+[2.690s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/lib/python3.10/site-packages'
+[2.690s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/bin'
+[2.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/package.ps1'
+[2.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/package.dsv'
+[2.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/package.sh'
+[2.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/package.bash'
+[2.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/package.zsh'
+[2.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/colcon-core/packages/ee4308_bringup)
+[2.714s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_lib)
+[2.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib
+[2.742s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib' for CMake module files
+[2.742s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib' for CMake config files
+[2.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_lib', 'cmake_prefix_path')
+[2.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/hook/cmake_prefix_path.ps1'
+[2.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/hook/cmake_prefix_path.dsv'
+[2.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/hook/cmake_prefix_path.sh'
+[2.776s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/bin'
+[2.776s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/lib/pkgconfig/ee4308_lib.pc'
+[2.776s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/lib/python3.10/site-packages'
+[2.776s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/bin'
+[2.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/package.ps1'
+[2.797s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/package.dsv'
+[2.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/package.sh'
+[2.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/package.bash'
+[2.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/package.zsh'
+[2.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/colcon-core/packages/ee4308_lib)
+[2.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_gazebo_plugins)
+[2.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins' for CMake module files
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins' for CMake config files
+[2.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_gazebo_plugins', 'cmake_prefix_path')
+[2.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[2.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[2.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/hook/cmake_prefix_path.sh'
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib'
+[2.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_gazebo_plugins', 'ld_library_path_lib')
+[2.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[2.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[2.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/hook/ld_library_path_lib.sh'
+[2.911s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/bin'
+[2.911s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib/pkgconfig/ee4308_gazebo_plugins.pc'
+[2.911s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib/python3.10/site-packages'
+[2.912s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/bin'
+[2.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.ps1'
+[2.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.dsv'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.sh'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.bash'
+[2.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.zsh'
+[2.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/colcon-core/packages/ee4308_gazebo_plugins)
+[2.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_lib)
+[2.979s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib' for CMake module files
+[2.980s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib' for CMake config files
+[2.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_lib', 'cmake_prefix_path')
+[2.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/hook/cmake_prefix_path.ps1'
+[2.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/hook/cmake_prefix_path.dsv'
+[2.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/hook/cmake_prefix_path.sh'
+[2.999s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/bin'
+[2.999s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/lib/pkgconfig/ee4308_lib.pc'
+[2.999s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/lib/python3.10/site-packages'
+[3.000s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/bin'
+[3.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/package.ps1'
+[3.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/package.dsv'
+[3.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/package.sh'
+[3.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/package.bash'
+[3.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/package.zsh'
+[3.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/colcon-core/packages/ee4308_lib)
+[3.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces -- -j4 -l4
+[3.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_gazebo_plugins)
+[3.089s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins' for CMake module files
+[3.090s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins' for CMake config files
+[3.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_gazebo_plugins', 'cmake_prefix_path')
+[3.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[3.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[3.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/hook/cmake_prefix_path.sh'
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib'
+[3.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_gazebo_plugins', 'ld_library_path_lib')
+[3.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[3.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[3.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/hook/ld_library_path_lib.sh'
+[3.156s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/bin'
+[3.156s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib/pkgconfig/ee4308_gazebo_plugins.pc'
+[3.156s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib/python3.10/site-packages'
+[3.157s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/bin'
+[3.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.ps1'
+[3.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.dsv'
+[3.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.sh'
+[3.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.bash'
+[3.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.zsh'
+[3.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/colcon-core/packages/ee4308_gazebo_plugins)
+[3.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces
+[3.356s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_interfaces)
+[3.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces
+[3.372s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces' for CMake module files
+[3.373s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces' for CMake config files
+[3.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_interfaces', 'cmake_prefix_path')
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/hook/cmake_prefix_path.ps1'
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/hook/cmake_prefix_path.dsv'
+[3.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/hook/cmake_prefix_path.sh'
+[3.402s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib'
+[3.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_interfaces', 'ld_library_path_lib')
+[3.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/hook/ld_library_path_lib.ps1'
+[3.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/hook/ld_library_path_lib.dsv'
+[3.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/hook/ld_library_path_lib.sh'
+[3.426s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/bin'
+[3.426s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/pkgconfig/ee4308_interfaces.pc'
+[3.427s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/python3.10/site-packages'
+[3.427s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/bin'
+[3.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/package.ps1'
+[3.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/package.dsv'
+[3.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/package.sh'
+[3.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/package.bash'
+[3.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/package.zsh'
+[3.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/colcon-core/packages/ee4308_interfaces)
+[3.658s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_interfaces)
+[3.679s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces' for CMake module files
+[3.680s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces' for CMake config files
+[3.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_interfaces', 'cmake_prefix_path')
+[3.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/hook/cmake_prefix_path.ps1'
+[3.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/hook/cmake_prefix_path.dsv'
+[3.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/hook/cmake_prefix_path.sh'
+[3.699s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib'
+[3.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_interfaces', 'ld_library_path_lib')
+[3.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/hook/ld_library_path_lib.ps1'
+[3.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/hook/ld_library_path_lib.dsv'
+[3.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/hook/ld_library_path_lib.sh'
+[3.722s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/bin'
+[3.722s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/pkgconfig/ee4308_interfaces.pc'
+[3.723s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/python3.10/site-packages'
+[3.723s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/bin'
+[3.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/package.ps1'
+[3.749s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/package.dsv'
+[3.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/package.sh'
+[3.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/package.bash'
+[3.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/package.zsh'
+[3.751s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/colcon-core/packages/ee4308_interfaces)
+[3.752s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone' with build type 'ament_cmake'
+[3.752s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone'
+[3.769s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.769s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.843s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_turtle' with build type 'ament_cmake'
+[3.843s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_turtle'
+[3.864s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.865s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone': CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone -- -j4 -l4
+[3.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle': CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle -- -j4 -l4
+[4.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle' returned '0': CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle -- -j4 -l4
+[4.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle': CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle
+[4.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_turtle)
+[4.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle' returned '0': CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle
+[4.238s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle' for CMake module files
+[4.239s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle' for CMake config files
+[4.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_turtle', 'cmake_prefix_path')
+[4.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/hook/cmake_prefix_path.ps1'
+[4.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/hook/cmake_prefix_path.dsv'
+[4.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/hook/cmake_prefix_path.sh'
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/lib'
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/bin'
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/lib/pkgconfig/ee4308_turtle.pc'
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/lib/python3.10/site-packages'
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/bin'
+[4.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/package.ps1'
+[4.286s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/package.dsv'
+[4.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/package.sh'
+[4.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/package.bash'
+[4.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/package.zsh'
+[4.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/colcon-core/packages/ee4308_turtle)
+[4.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_turtle)
+[4.387s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle' for CMake module files
+[4.388s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle' for CMake config files
+[4.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_turtle', 'cmake_prefix_path')
+[4.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/hook/cmake_prefix_path.ps1'
+[4.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/hook/cmake_prefix_path.dsv'
+[4.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/hook/cmake_prefix_path.sh'
+[4.409s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/lib'
+[4.409s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/bin'
+[4.410s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/lib/pkgconfig/ee4308_turtle.pc'
+[4.410s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/lib/python3.10/site-packages'
+[4.410s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/bin'
+[4.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/package.ps1'
+[4.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/package.dsv'
+[4.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/package.sh'
+[4.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/package.bash'
+[4.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/package.zsh'
+[4.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/colcon-core/packages/ee4308_turtle)
+[18.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone' returned '0': CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone -- -j4 -l4
+[18.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone': CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone
+[18.751s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_drone)
+[18.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone' returned '0': CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone
+[18.773s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone' for CMake module files
+[18.773s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone' for CMake config files
+[18.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_drone', 'cmake_prefix_path')
+[18.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/hook/cmake_prefix_path.ps1'
+[18.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/hook/cmake_prefix_path.dsv'
+[18.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/hook/cmake_prefix_path.sh'
+[18.795s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib'
+[18.796s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/bin'
+[18.796s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/pkgconfig/ee4308_drone.pc'
+[18.796s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/python3.10/site-packages'
+[18.796s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/bin'
+[18.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.ps1'
+[18.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.dsv'
+[18.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.sh'
+[18.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.bash'
+[18.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.zsh'
+[18.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/colcon-core/packages/ee4308_drone)
+[18.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ee4308_drone)
+[18.897s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone' for CMake module files
+[18.897s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone' for CMake config files
+[18.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('ee4308_drone', 'cmake_prefix_path')
+[18.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/hook/cmake_prefix_path.ps1'
+[18.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/hook/cmake_prefix_path.dsv'
+[18.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/hook/cmake_prefix_path.sh'
+[18.915s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib'
+[18.916s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/bin'
+[18.916s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/pkgconfig/ee4308_drone.pc'
+[18.916s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/python3.10/site-packages'
+[18.916s] Level 1:colcon.colcon_core.environment:checking '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/bin'
+[18.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.ps1'
+[18.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.dsv'
+[18.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.sh'
+[18.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.bash'
+[18.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.zsh'
+[18.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/colcon-core/packages/ee4308_drone)
+[18.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.937s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.960s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.961s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.961s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.973s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.992s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kaeboon/KBoon/ee4308_proj2/install/local_setup.ps1'
+[18.993s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kaeboon/KBoon/ee4308_proj2/install/_local_setup_util_ps1.py'
+[18.995s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kaeboon/KBoon/ee4308_proj2/install/setup.ps1'
+[19.012s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kaeboon/KBoon/ee4308_proj2/install/local_setup.sh'
+[19.013s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kaeboon/KBoon/ee4308_proj2/install/_local_setup_util_sh.py'
+[19.014s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kaeboon/KBoon/ee4308_proj2/install/setup.sh'
+[19.034s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kaeboon/KBoon/ee4308_proj2/install/local_setup.bash'
+[19.034s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kaeboon/KBoon/ee4308_proj2/install/setup.bash'
+[19.054s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kaeboon/KBoon/ee4308_proj2/install/local_setup.zsh'
+[19.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kaeboon/KBoon/ee4308_proj2/install/setup.zsh'

@@ -1,0 +1,936 @@
+[0.000000] (-) TimerEvent: {}
+[0.000652] (ee4308_bringup) JobQueued: {'identifier': 'ee4308_bringup', 'dependencies': OrderedDict()}
+[0.000863] (ee4308_gazebo_plugins) JobQueued: {'identifier': 'ee4308_gazebo_plugins', 'dependencies': OrderedDict()}
+[0.000900] (ee4308_interfaces) JobQueued: {'identifier': 'ee4308_interfaces', 'dependencies': OrderedDict()}
+[0.000925] (ee4308_lib) JobQueued: {'identifier': 'ee4308_lib', 'dependencies': OrderedDict()}
+[0.000952] (ee4308_drone) JobQueued: {'identifier': 'ee4308_drone', 'dependencies': OrderedDict([('ee4308_interfaces', '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces'), ('ee4308_lib', '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib')])}
+[0.000991] (ee4308_turtle) JobQueued: {'identifier': 'ee4308_turtle', 'dependencies': OrderedDict([('ee4308_interfaces', '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces'), ('ee4308_lib', '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib')])}
+[0.002182] (ee4308_interfaces) JobStarted: {'identifier': 'ee4308_interfaces'}
+[0.100077] (-) TimerEvent: {}
+[0.115785] (ee4308_lib) JobStarted: {'identifier': 'ee4308_lib'}
+[0.205689] (-) TimerEvent: {}
+[0.224459] (ee4308_bringup) JobStarted: {'identifier': 'ee4308_bringup'}
+[0.306176] (-) TimerEvent: {}
+[0.341690] (ee4308_gazebo_plugins) JobStarted: {'identifier': 'ee4308_gazebo_plugins'}
+[0.413963] (-) TimerEvent: {}
+[0.461138] (ee4308_interfaces) JobProgress: {'identifier': 'ee4308_interfaces', 'progress': 'cmake'}
+[0.462835] (ee4308_interfaces) JobProgress: {'identifier': 'ee4308_interfaces', 'progress': 'build'}
+[0.462921] (ee4308_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'kaeboon'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kaeboon'), ('OLDPWD', '/home/kaeboon'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2201'), ('SYSTEMD_EXEC_PID', '2580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6461'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install:/home/kaeboon/KBoon/ee4308_proj2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaeboon'), ('JOURNAL_STREAM', '8:22256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('EE4308_TASK', 'proj2'), ('USERNAME', 'kaeboon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kaeboon:@/tmp/.ICE-unix/2347,unix/kaeboon:/tmp/.ICE-unix/2347'), ('INVOCATION_ID', '9048fc1925bb4a7f9531cde6d64517ae'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.42KQL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1bcc87a-8a8c-4f3f-8966-2ad2ad82c362'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kaeboon/sjtu_drone/build/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_control/lib/python3.10/site-packages:/home/kaeboon/sjtu_drone/build/sjtu_drone_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble')]), 'shell': False}
+[0.471848] (ee4308_lib) JobProgress: {'identifier': 'ee4308_lib', 'progress': 'cmake'}
+[0.478011] (ee4308_lib) JobProgress: {'identifier': 'ee4308_lib', 'progress': 'build'}
+[0.478098] (ee4308_lib) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib', '--', '-j4', '-l4'], 'cwd': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'kaeboon'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kaeboon'), ('OLDPWD', '/home/kaeboon'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2201'), ('SYSTEMD_EXEC_PID', '2580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6461'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install:/home/kaeboon/KBoon/ee4308_proj2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaeboon'), ('JOURNAL_STREAM', '8:22256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('EE4308_TASK', 'proj2'), ('USERNAME', 'kaeboon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kaeboon:@/tmp/.ICE-unix/2347,unix/kaeboon:/tmp/.ICE-unix/2347'), ('INVOCATION_ID', '9048fc1925bb4a7f9531cde6d64517ae'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.42KQL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1bcc87a-8a8c-4f3f-8966-2ad2ad82c362'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kaeboon/sjtu_drone/build/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_control/lib/python3.10/site-packages:/home/kaeboon/sjtu_drone/build/sjtu_drone_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble')]), 'shell': False}
+[0.480118] (ee4308_bringup) JobProgress: {'identifier': 'ee4308_bringup', 'progress': 'cmake'}
+[0.487734] (ee4308_bringup) JobProgress: {'identifier': 'ee4308_bringup', 'progress': 'build'}
+[0.487840] (ee4308_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup', '--', '-j4', '-l4'], 'cwd': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'kaeboon'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kaeboon'), ('OLDPWD', '/home/kaeboon'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2201'), ('SYSTEMD_EXEC_PID', '2580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6461'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install:/home/kaeboon/KBoon/ee4308_proj2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaeboon'), ('JOURNAL_STREAM', '8:22256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('EE4308_TASK', 'proj2'), ('USERNAME', 'kaeboon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kaeboon:@/tmp/.ICE-unix/2347,unix/kaeboon:/tmp/.ICE-unix/2347'), ('INVOCATION_ID', '9048fc1925bb4a7f9531cde6d64517ae'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.42KQL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1bcc87a-8a8c-4f3f-8966-2ad2ad82c362'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kaeboon/sjtu_drone/build/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_control/lib/python3.10/site-packages:/home/kaeboon/sjtu_drone/build/sjtu_drone_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble')]), 'shell': False}
+[0.507378] (ee4308_gazebo_plugins) JobProgress: {'identifier': 'ee4308_gazebo_plugins', 'progress': 'cmake'}
+[0.534657] (ee4308_gazebo_plugins) JobProgress: {'identifier': 'ee4308_gazebo_plugins', 'progress': 'build'}
+[0.534741] (-) TimerEvent: {}
+[0.534970] (ee4308_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins', '--', '-j4', '-l4'], 'cwd': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'kaeboon'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kaeboon'), ('OLDPWD', '/home/kaeboon'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2201'), ('SYSTEMD_EXEC_PID', '2580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6461'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install:/home/kaeboon/KBoon/ee4308_proj2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaeboon'), ('JOURNAL_STREAM', '8:22256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('EE4308_TASK', 'proj2'), ('USERNAME', 'kaeboon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kaeboon:@/tmp/.ICE-unix/2347,unix/kaeboon:/tmp/.ICE-unix/2347'), ('INVOCATION_ID', '9048fc1925bb4a7f9531cde6d64517ae'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.42KQL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1bcc87a-8a8c-4f3f-8966-2ad2ad82c362'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kaeboon/sjtu_drone/build/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_control/lib/python3.10/site-packages:/home/kaeboon/sjtu_drone/build/sjtu_drone_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble')]), 'shell': False}
+[0.561069] (ee4308_bringup) CommandEnded: {'returncode': 0}
+[0.570216] (ee4308_interfaces) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_ee4308_interfaces\n'}
+[0.579643] (ee4308_lib) CommandEnded: {'returncode': 0}
+[0.582209] (ee4308_interfaces) StdoutLine: {'line': b'[  2%] Built target ee4308_interfaces__cpp\n'}
+[0.596195] (ee4308_interfaces) StdoutLine: {'line': b'[ 12%] Built target ee4308_interfaces__rosidl_generator_c\n'}
+[0.634861] (-) TimerEvent: {}
+[0.661354] (ee4308_interfaces) StdoutLine: {'line': b'[ 23%] Built target ee4308_interfaces__rosidl_typesupport_cpp\n'}
+[0.686320] (ee4308_lib) JobProgress: {'identifier': 'ee4308_lib', 'progress': 'install'}
+[0.689555] (ee4308_interfaces) StdoutLine: {'line': b'[ 34%] Built target ee4308_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.694283] (ee4308_gazebo_plugins) StdoutLine: {'line': b'[ 50%] Built target gazebo_ros_magnetic\n'}
+[0.728845] (ee4308_lib) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib'], 'cwd': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'kaeboon'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kaeboon'), ('OLDPWD', '/home/kaeboon'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2201'), ('SYSTEMD_EXEC_PID', '2580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6461'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install:/home/kaeboon/KBoon/ee4308_proj2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaeboon'), ('JOURNAL_STREAM', '8:22256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('EE4308_TASK', 'proj2'), ('USERNAME', 'kaeboon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kaeboon:@/tmp/.ICE-unix/2347,unix/kaeboon:/tmp/.ICE-unix/2347'), ('INVOCATION_ID', '9048fc1925bb4a7f9531cde6d64517ae'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.42KQL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1bcc87a-8a8c-4f3f-8966-2ad2ad82c362'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kaeboon/sjtu_drone/build/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_control/lib/python3.10/site-packages:/home/kaeboon/sjtu_drone/build/sjtu_drone_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble')]), 'shell': False}
+[0.730538] (ee4308_interfaces) StdoutLine: {'line': b'[ 44%] Built target ee4308_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.731027] (ee4308_gazebo_plugins) StdoutLine: {'line': b'[100%] Built target gazebo_ros_baro\n'}
+[0.735073] (-) TimerEvent: {}
+[0.742811] (ee4308_bringup) JobProgress: {'identifier': 'ee4308_bringup', 'progress': 'install'}
+[0.743047] (ee4308_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup'], 'cwd': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'kaeboon'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kaeboon'), ('OLDPWD', '/home/kaeboon'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2201'), ('SYSTEMD_EXEC_PID', '2580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6461'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install:/home/kaeboon/KBoon/ee4308_proj2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaeboon'), ('JOURNAL_STREAM', '8:22256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('EE4308_TASK', 'proj2'), ('USERNAME', 'kaeboon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kaeboon:@/tmp/.ICE-unix/2347,unix/kaeboon:/tmp/.ICE-unix/2347'), ('INVOCATION_ID', '9048fc1925bb4a7f9531cde6d64517ae'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.42KQL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1bcc87a-8a8c-4f3f-8966-2ad2ad82c362'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kaeboon/sjtu_drone/build/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_control/lib/python3.10/site-packages:/home/kaeboon/sjtu_drone/build/sjtu_drone_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble')]), 'shell': False}
+[0.743843] (ee4308_lib) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.744535] (ee4308_lib) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.751258] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/include/ee4308_lib//common.hpp\n'}
+[0.751454] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/include/ee4308_lib//core.hpp\n'}
+[0.751525] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/include/ee4308_lib//vec2.hpp\n'}
+[0.751586] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ament_index/resource_index/package_run_dependencies/ee4308_lib\n'}
+[0.751645] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ament_index/resource_index/parent_prefix_path/ee4308_lib\n'}
+[0.751702] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/environment/ament_prefix_path.sh\n'}
+[0.751759] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/environment/ament_prefix_path.dsv\n'}
+[0.751814] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/environment/path.sh\n'}
+[0.751869] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/environment/path.dsv\n'}
+[0.751924] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/local_setup.bash\n'}
+[0.751979] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/local_setup.sh\n'}
+[0.752034] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/local_setup.zsh\n'}
+[0.752089] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/local_setup.dsv\n'}
+[0.752143] (ee4308_lib) StdoutLine: {'line': b'-- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/package.dsv\n'}
+[0.765283] (ee4308_interfaces) StdoutLine: {'line': b'[ 55%] Built target ee4308_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.769964] (ee4308_gazebo_plugins) CommandEnded: {'returncode': 0}
+[0.784561] (ee4308_interfaces) StdoutLine: {'line': b'[ 65%] Built target ee4308_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.789831] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ament_index/resource_index/packages/ee4308_lib\n'}
+[0.790083] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.790195] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.790294] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/cmake/ee4308_libConfig.cmake\n'}
+[0.790392] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/cmake/ee4308_libConfig-version.cmake\n'}
+[0.790487] (ee4308_lib) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/package.xml\n'}
+[0.793761] (ee4308_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.794739] (ee4308_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.795323] (ee4308_lib) CommandEnded: {'returncode': 0}
+[0.796584] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//launch/proj2.launch.py\n'}
+[0.796725] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//rviz/proj2.rviz\n'}
+[0.796815] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//params/drone.yaml\n'}
+[0.797014] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//params/proj2.yaml\n'}
+[0.797484] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/ee4308_world_24/model.config\n'}
+[0.797822] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/ee4308_world_24/model.sdf\n'}
+[0.798100] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/burger_base.dae\n'}
+[0.798353] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/lds.dae\n'}
+[0.798599] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/tire.dae\n'}
+[0.798854] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/model.config\n'}
+[0.799096] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/model.sdf\n'}
+[0.799354] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[0.799617] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_world/meshes/wall.dae\n'}
+[0.799900] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_world/model.config\n'}
+[0.800147] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_world/model.sdf\n'}
+[0.800520] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//worlds/turtlebot3_world.world\n'}
+[0.800877] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//urdf/sjtu_drone.urdf.xacro\n'}
+[0.801125] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//urdf/turtlebot3_burger.urdf.xacro\n'}
+[0.801433] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ament_index/resource_index/package_run_dependencies/ee4308_bringup\n'}
+[0.801747] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ament_index/resource_index/parent_prefix_path/ee4308_bringup\n'}
+[0.802409] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/environment/ament_prefix_path.sh\n'}
+[0.803702] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/environment/ament_prefix_path.dsv\n'}
+[0.804244] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/environment/path.sh\n'}
+[0.804797] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/environment/path.dsv\n'}
+[0.805358] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/local_setup.bash\n'}
+[0.805692] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/local_setup.sh\n'}
+[0.805998] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/local_setup.zsh\n'}
+[0.806287] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/local_setup.dsv\n'}
+[0.806533] (ee4308_bringup) StdoutLine: {'line': b'-- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/package.dsv\n'}
+[0.832244] (ee4308_interfaces) StdoutLine: {'line': b'[ 76%] Built target ee4308_interfaces__rosidl_typesupport_c\n'}
+[0.832479] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ament_index/resource_index/packages/ee4308_bringup\n'}
+[0.832568] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.832649] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/cmake/ee4308_bringupConfig.cmake\n'}
+[0.832709] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/cmake/ee4308_bringupConfig-version.cmake\n'}
+[0.832769] (ee4308_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/package.xml\n'}
+[0.835840] (-) TimerEvent: {}
+[0.882047] (ee4308_interfaces) StdoutLine: {'line': b'[ 76%] Built target ee4308_interfaces\n'}
+[0.902854] (ee4308_bringup) CommandEnded: {'returncode': 0}
+[0.942413] (ee4308_interfaces) StdoutLine: {'line': b'[ 78%] Built target ee4308_interfaces__py\n'}
+[0.942566] (-) TimerEvent: {}
+[1.005587] (ee4308_gazebo_plugins) JobProgress: {'identifier': 'ee4308_gazebo_plugins', 'progress': 'install'}
+[1.006017] (ee4308_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins'], 'cwd': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'kaeboon'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kaeboon'), ('OLDPWD', '/home/kaeboon'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2201'), ('SYSTEMD_EXEC_PID', '2580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6461'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install:/home/kaeboon/KBoon/ee4308_proj2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaeboon'), ('JOURNAL_STREAM', '8:22256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('EE4308_TASK', 'proj2'), ('USERNAME', 'kaeboon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kaeboon:@/tmp/.ICE-unix/2347,unix/kaeboon:/tmp/.ICE-unix/2347'), ('INVOCATION_ID', '9048fc1925bb4a7f9531cde6d64517ae'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.42KQL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1bcc87a-8a8c-4f3f-8966-2ad2ad82c362'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kaeboon/sjtu_drone/build/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_control/lib/python3.10/site-packages:/home/kaeboon/sjtu_drone/build/sjtu_drone_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble')]), 'shell': False}
+[1.027486] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.029237] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.029370] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins//gazebo_ros_baro.hpp\n'}
+[1.029437] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins//gazebo_ros_magnetic.hpp\n'}
+[1.029496] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins//sensor_model.h\n'}
+[1.029552] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins//update_timer.h\n'}
+[1.029654] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib/libgazebo_ros_baro.so\n'}
+[1.030118] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib/libgazebo_ros_magnetic.so\n'}
+[1.030194] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/ee4308_gazebo_plugins\n'}
+[1.030258] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/ee4308_gazebo_plugins\n'}
+[1.030316] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/environment/ament_prefix_path.sh\n'}
+[1.030372] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/environment/ament_prefix_path.dsv\n'}
+[1.030427] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/environment/path.sh\n'}
+[1.030482] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/environment/path.dsv\n'}
+[1.030536] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/local_setup.bash\n'}
+[1.030590] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/local_setup.sh\n'}
+[1.030645] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/local_setup.zsh\n'}
+[1.030699] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/local_setup.dsv\n'}
+[1.030753] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.dsv\n'}
+[1.045756] (-) TimerEvent: {}
+[1.046898] (ee4308_interfaces) StdoutLine: {'line': b'[ 87%] Built target ee4308_interfaces__rosidl_generator_py\n'}
+[1.077718] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ament_index/resource_index/packages/ee4308_gazebo_plugins\n'}
+[1.077982] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.078059] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/cmake/ee4308_gazebo_pluginsConfig.cmake\n'}
+[1.078142] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/cmake/ee4308_gazebo_pluginsConfig-version.cmake\n'}
+[1.078206] (ee4308_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.xml\n'}
+[1.094552] (ee4308_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.104971] (ee4308_interfaces) StdoutLine: {'line': b'writing ee4308_interfaces.egg-info/PKG-INFO\n'}
+[1.105116] (ee4308_interfaces) StdoutLine: {'line': b'writing dependency_links to ee4308_interfaces.egg-info/dependency_links.txt\n'}
+[1.105187] (ee4308_interfaces) StdoutLine: {'line': b'writing top-level names to ee4308_interfaces.egg-info/top_level.txt\n'}
+[1.111742] (ee4308_interfaces) StdoutLine: {'line': b"reading manifest file 'ee4308_interfaces.egg-info/SOURCES.txt'\n"}
+[1.111987] (ee4308_interfaces) StdoutLine: {'line': b"writing manifest file 'ee4308_interfaces.egg-info/SOURCES.txt'\n"}
+[1.146341] (-) TimerEvent: {}
+[1.176105] (ee4308_interfaces) StdoutLine: {'line': b'[ 91%] Built target ee4308_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.188881] (ee4308_interfaces) StdoutLine: {'line': b'[ 95%] Built target ee4308_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.226671] (ee4308_interfaces) StdoutLine: {'line': b'[100%] Built target ee4308_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.226996] (ee4308_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_ee4308_interfaces_egg\n'}
+[1.251552] (-) TimerEvent: {}
+[1.300497] (ee4308_lib) JobEnded: {'identifier': 'ee4308_lib', 'rc': 0}
+[1.352400] (-) TimerEvent: {}
+[1.416828] (ee4308_bringup) JobEnded: {'identifier': 'ee4308_bringup', 'rc': 0}
+[1.417507] (ee4308_interfaces) CommandEnded: {'returncode': 0}
+[1.420479] (ee4308_gazebo_plugins) CommandEnded: {'returncode': 0}
+[1.452889] (-) TimerEvent: {}
+[1.553510] (-) TimerEvent: {}
+[1.663901] (-) TimerEvent: {}
+[1.766658] (-) TimerEvent: {}
+[1.798782] (ee4308_gazebo_plugins) JobEnded: {'identifier': 'ee4308_gazebo_plugins', 'rc': 0}
+[1.799671] (ee4308_interfaces) JobProgress: {'identifier': 'ee4308_interfaces', 'progress': 'install'}
+[1.805688] (ee4308_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces'], 'cwd': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'kaeboon'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kaeboon'), ('OLDPWD', '/home/kaeboon'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2201'), ('SYSTEMD_EXEC_PID', '2580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6461'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install:/home/kaeboon/KBoon/ee4308_proj2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaeboon'), ('JOURNAL_STREAM', '8:22256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('EE4308_TASK', 'proj2'), ('USERNAME', 'kaeboon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kaeboon:@/tmp/.ICE-unix/2347,unix/kaeboon:/tmp/.ICE-unix/2347'), ('INVOCATION_ID', '9048fc1925bb4a7f9531cde6d64517ae'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.42KQL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1bcc87a-8a8c-4f3f-8966-2ad2ad82c362'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kaeboon/sjtu_drone/build/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_control/lib/python3.10/site-packages:/home/kaeboon/sjtu_drone/build/sjtu_drone_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble')]), 'shell': False}
+[1.810466] (ee4308_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.810631] (ee4308_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.810828] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ament_index/resource_index/rosidl_interfaces/ee4308_interfaces\n'}
+[1.813018] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__functions.h\n'}
+[1.813260] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__struct.h\n'}
+[1.813541] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__type_support.h\n'}
+[1.813770] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/process_drone_state.h\n'}
+[1.813884] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.813988] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__functions.h\n'}
+[1.814259] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__struct.h\n'}
+[1.814596] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__type_support.h\n'}
+[1.814870] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__functions.h\n'}
+[1.815140] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__struct.h\n'}
+[1.815361] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__type_support.h\n'}
+[1.815490] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/get_waypoint.h\n'}
+[1.815595] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/waypoint.h\n'}
+[1.815731] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/library_path.sh\n'}
+[1.816062] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/library_path.dsv\n'}
+[1.816212] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__rosidl_typesupport_fastrtps_c.h\n'}
+[1.816392] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.816697] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__rosidl_typesupport_fastrtps_c.h\n'}
+[1.816844] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__rosidl_typesupport_fastrtps_c.h\n'}
+[1.816946] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__builder.hpp\n'}
+[1.817252] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__struct.hpp\n'}
+[1.817443] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__traits.hpp\n'}
+[1.817672] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/process_drone_state.hpp\n'}
+[1.817784] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__builder.hpp\n'}
+[1.818002] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__struct.hpp\n'}
+[1.818282] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__traits.hpp\n'}
+[1.818396] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__builder.hpp\n'}
+[1.818499] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__struct.hpp\n'}
+[1.818598] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__traits.hpp\n'}
+[1.818702] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/get_waypoint.hpp\n'}
+[1.818915] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/waypoint.hpp\n'}
+[1.819132] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.823627] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.823825] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.823906] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.823966] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__rosidl_typesupport_introspection_c.h\n'}
+[1.824025] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.824082] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__rosidl_typesupport_introspection_c.h\n'}
+[1.824139] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__rosidl_typesupport_introspection_c.h\n'}
+[1.824194] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.824261] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.824317] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.824389] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/pythonpath.sh\n'}
+[1.824447] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/pythonpath.dsv\n'}
+[1.824503] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.824599] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.824689] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.824781] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.824871] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/__init__.py\n'}
+[1.824943] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/_ee4308_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.825000] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/_ee4308_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.825142] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/_ee4308_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.825274] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/action/__init__.py\n'}
+[1.825348] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/action/_process_drone_state.py\n'}
+[1.830675] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/action/_process_drone_state_s.c\n'}
+[1.830883] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.830961] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.831024] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.831082] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/libee4308_interfaces__rosidl_generator_py.so\n'}
+[1.831141] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/__init__.py\n'}
+[1.831198] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/_get_waypoint.py\n'}
+[1.831365] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/_get_waypoint_s.c\n'}
+[1.831455] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/_waypoint.py\n'}
+[1.831513] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/_waypoint_s.c\n'}
+[1.831591] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.831651] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.831709] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.831769] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/action/ProcessDroneState.idl\n'}
+[1.831835] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/Waypoint.idl\n'}
+[1.831892] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/GetWaypoint.idl\n'}
+[1.831949] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/action/ProcessDroneState.action\n'}
+[1.832006] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/Waypoint.srv\n'}
+[1.832062] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/Waypoint_Request.msg\n'}
+[1.832117] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/Waypoint_Response.msg\n'}
+[1.832175] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/GetWaypoint.srv\n'}
+[1.832231] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/GetWaypoint_Request.msg\n'}
+[1.832301] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/GetWaypoint_Response.msg\n'}
+[1.832357] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces//srv/GetWaypoint.srv\n'}
+[1.832417] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces//srv/Waypoint.srv\n'}
+[1.832473] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ament_index/resource_index/package_run_dependencies/ee4308_interfaces\n'}
+[1.832528] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ament_index/resource_index/parent_prefix_path/ee4308_interfaces\n'}
+[1.832583] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/ament_prefix_path.sh\n'}
+[1.832639] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.832695] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/path.sh\n'}
+[1.832750] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/path.dsv\n'}
+[1.832805] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/local_setup.bash\n'}
+[1.832860] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/local_setup.sh\n'}
+[1.832916] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/local_setup.zsh\n'}
+[1.832972] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/local_setup.dsv\n'}
+[1.833107] (ee4308_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/package.dsv\n'}
+[1.842902] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ament_index/resource_index/packages/ee4308_interfaces\n'}
+[1.843176] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.843269] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.843454] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.843561] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.843692] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.843766] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.843953] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.844060] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfacesConfig.cmake\n'}
+[1.844234] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfacesConfig-version.cmake\n'}
+[1.844316] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/package.xml\n'}
+[1.844476] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_generator_c.so\n'}
+[1.844810] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.845114] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.845412] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.845918] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_c.so\n'}
+[1.846109] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.846283] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.866992] (-) TimerEvent: {}
+[1.895932] (ee4308_interfaces) StdoutLine: {'line': b"Listing '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces'...\n"}
+[1.896129] (ee4308_interfaces) StdoutLine: {'line': b"Listing '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/action'...\n"}
+[1.896214] (ee4308_interfaces) StdoutLine: {'line': b"Listing '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv'...\n"}
+[1.901287] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_generator_py.so\n'}
+[1.902184] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.902303] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.902373] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.902439] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.902620] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.902728] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.902807] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.902870] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.903019] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.903079] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.903136] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.903192] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.903248] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.903348] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.903405] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.903460] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.903514] (ee4308_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.908815] (ee4308_interfaces) CommandEnded: {'returncode': 0}
+[1.967915] (-) TimerEvent: {}
+[2.068291] (-) TimerEvent: {}
+[2.169363] (-) TimerEvent: {}
+[2.270870] (-) TimerEvent: {}
+[2.348143] (ee4308_interfaces) JobEnded: {'identifier': 'ee4308_interfaces', 'rc': 0}
+[2.348912] (ee4308_drone) JobStarted: {'identifier': 'ee4308_drone'}
+[2.376563] (-) TimerEvent: {}
+[2.478624] (-) TimerEvent: {}
+[2.493761] (ee4308_turtle) JobStarted: {'identifier': 'ee4308_turtle'}
+[2.580078] (-) TimerEvent: {}
+[2.623876] (ee4308_drone) JobProgress: {'identifier': 'ee4308_drone', 'progress': 'cmake'}
+[2.624079] (ee4308_drone) JobProgress: {'identifier': 'ee4308_drone', 'progress': 'build'}
+[2.624112] (ee4308_drone) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone', '--', '-j4', '-l4'], 'cwd': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'kaeboon'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/kaeboon'), ('OLDPWD', '/home/kaeboon'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2201'), ('SYSTEMD_EXEC_PID', '2580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6461'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install:/home/kaeboon/KBoon/ee4308_proj2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaeboon'), ('JOURNAL_STREAM', '8:22256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('EE4308_TASK', 'proj2'), ('USERNAME', 'kaeboon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kaeboon:@/tmp/.ICE-unix/2347,unix/kaeboon:/tmp/.ICE-unix/2347'), ('INVOCATION_ID', '9048fc1925bb4a7f9531cde6d64517ae'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.42KQL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1bcc87a-8a8c-4f3f-8966-2ad2ad82c362'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kaeboon/sjtu_drone/build/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_control/lib/python3.10/site-packages:/home/kaeboon/sjtu_drone/build/sjtu_drone_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble')]), 'shell': False}
+[2.631493] (ee4308_turtle) JobProgress: {'identifier': 'ee4308_turtle', 'progress': 'cmake'}
+[2.631552] (ee4308_turtle) JobProgress: {'identifier': 'ee4308_turtle', 'progress': 'build'}
+[2.631576] (ee4308_turtle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle', '--', '-j4', '-l4'], 'cwd': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'kaeboon'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/kaeboon'), ('OLDPWD', '/home/kaeboon'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2201'), ('SYSTEMD_EXEC_PID', '2580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6461'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install:/home/kaeboon/KBoon/ee4308_proj2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaeboon'), ('JOURNAL_STREAM', '8:22256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('EE4308_TASK', 'proj2'), ('USERNAME', 'kaeboon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kaeboon:@/tmp/.ICE-unix/2347,unix/kaeboon:/tmp/.ICE-unix/2347'), ('INVOCATION_ID', '9048fc1925bb4a7f9531cde6d64517ae'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.42KQL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1bcc87a-8a8c-4f3f-8966-2ad2ad82c362'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kaeboon/sjtu_drone/build/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_control/lib/python3.10/site-packages:/home/kaeboon/sjtu_drone/build/sjtu_drone_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble')]), 'shell': False}
+[2.680309] (-) TimerEvent: {}
+[2.712125] (ee4308_drone) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller\x1b[0m\n'}
+[2.727006] (ee4308_turtle) StdoutLine: {'line': b'[ 20%] Built target mapper\n'}
+[2.742272] (ee4308_turtle) StdoutLine: {'line': b'[ 40%] Built target controller\n'}
+[2.745981] (ee4308_drone) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target estimator\x1b[0m\n'}
+[2.751910] (ee4308_drone) StdoutLine: {'line': b'[ 20%] Built target behavior\n'}
+[2.754255] (ee4308_drone) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o\x1b[0m\n'}
+[2.777880] (ee4308_turtle) StdoutLine: {'line': b'[ 60%] Built target behavior\n'}
+[2.780512] (-) TimerEvent: {}
+[2.790898] (ee4308_turtle) StdoutLine: {'line': b'[ 80%] Built target planner_smoother\n'}
+[2.791314] (ee4308_drone) StdoutLine: {'line': b'[ 50%] Built target teleop\n'}
+[2.796929] (ee4308_drone) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/estimator.dir/src/estimator.cpp.o\x1b[0m\n'}
+[2.808283] (ee4308_turtle) StdoutLine: {'line': b'[100%] Built target estimator\n'}
+[2.816722] (ee4308_drone) StdoutLine: {'line': b'[ 80%] Built target smoother\n'}
+[2.826123] (ee4308_turtle) CommandEnded: {'returncode': 0}
+[2.880798] (-) TimerEvent: {}
+[2.888489] (ee4308_turtle) JobProgress: {'identifier': 'ee4308_turtle', 'progress': 'install'}
+[2.888722] (ee4308_turtle) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle'], 'cwd': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'kaeboon'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/kaeboon'), ('OLDPWD', '/home/kaeboon'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2201'), ('SYSTEMD_EXEC_PID', '2580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6461'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install:/home/kaeboon/KBoon/ee4308_proj2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaeboon'), ('JOURNAL_STREAM', '8:22256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('EE4308_TASK', 'proj2'), ('USERNAME', 'kaeboon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kaeboon:@/tmp/.ICE-unix/2347,unix/kaeboon:/tmp/.ICE-unix/2347'), ('INVOCATION_ID', '9048fc1925bb4a7f9531cde6d64517ae'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.42KQL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1bcc87a-8a8c-4f3f-8966-2ad2ad82c362'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_turtle'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kaeboon/sjtu_drone/build/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_control/lib/python3.10/site-packages:/home/kaeboon/sjtu_drone/build/sjtu_drone_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble')]), 'shell': False}
+[2.899039] (ee4308_turtle) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.899886] (ee4308_turtle) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.903992] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/lib/ee4308_turtle/mapper\n'}
+[2.904134] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/lib/ee4308_turtle/planner_smoother\n'}
+[2.904299] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/lib/ee4308_turtle/controller\n'}
+[2.904524] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/lib/ee4308_turtle/behavior\n'}
+[2.904896] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/lib/ee4308_turtle/estimator\n'}
+[2.905143] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ament_index/resource_index/package_run_dependencies/ee4308_turtle\n'}
+[2.905376] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ament_index/resource_index/parent_prefix_path/ee4308_turtle\n'}
+[2.905631] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/environment/ament_prefix_path.sh\n'}
+[2.905856] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/environment/ament_prefix_path.dsv\n'}
+[2.906075] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/environment/path.sh\n'}
+[2.907842] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/environment/path.dsv\n'}
+[2.907964] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/local_setup.bash\n'}
+[2.908056] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/local_setup.sh\n'}
+[2.909872] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/local_setup.zsh\n'}
+[2.910291] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/local_setup.dsv\n'}
+[2.910426] (ee4308_turtle) StdoutLine: {'line': b'-- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/package.dsv\n'}
+[2.929995] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ament_index/resource_index/packages/ee4308_turtle\n'}
+[2.930211] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.930287] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.931954] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/cmake/ee4308_turtleConfig.cmake\n'}
+[2.932087] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/cmake/ee4308_turtleConfig-version.cmake\n'}
+[2.932151] (ee4308_turtle) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle/share/ee4308_turtle/package.xml\n'}
+[2.934458] (ee4308_turtle) CommandEnded: {'returncode': 0}
+[2.993310] (-) TimerEvent: {}
+[3.097505] (-) TimerEvent: {}
+[3.205311] (-) TimerEvent: {}
+[3.325714] (-) TimerEvent: {}
+[3.377854] (ee4308_turtle) JobEnded: {'identifier': 'ee4308_turtle', 'rc': 0}
+[3.426196] (-) TimerEvent: {}
+[3.527187] (-) TimerEvent: {}
+[3.627822] (-) TimerEvent: {}
+[3.728464] (-) TimerEvent: {}
+[3.829434] (-) TimerEvent: {}
+[3.930443] (-) TimerEvent: {}
+[4.031255] (-) TimerEvent: {}
+[4.134329] (-) TimerEvent: {}
+[4.234725] (-) TimerEvent: {}
+[4.337421] (-) TimerEvent: {}
+[4.437905] (-) TimerEvent: {}
+[4.538419] (-) TimerEvent: {}
+[4.641509] (-) TimerEvent: {}
+[4.742126] (-) TimerEvent: {}
+[4.845734] (-) TimerEvent: {}
+[4.946756] (-) TimerEvent: {}
+[5.047605] (-) TimerEvent: {}
+[5.156941] (-) TimerEvent: {}
+[5.260889] (-) TimerEvent: {}
+[5.362839] (-) TimerEvent: {}
+[5.465712] (-) TimerEvent: {}
+[5.572701] (-) TimerEvent: {}
+[5.673693] (-) TimerEvent: {}
+[5.774490] (-) TimerEvent: {}
+[5.878149] (-) TimerEvent: {}
+[5.978637] (-) TimerEvent: {}
+[6.078948] (-) TimerEvent: {}
+[6.179678] (-) TimerEvent: {}
+[6.287306] (-) TimerEvent: {}
+[6.391666] (-) TimerEvent: {}
+[6.493298] (-) TimerEvent: {}
+[6.594770] (-) TimerEvent: {}
+[6.695249] (-) TimerEvent: {}
+[6.798080] (-) TimerEvent: {}
+[6.900938] (-) TimerEvent: {}
+[7.005558] (-) TimerEvent: {}
+[7.106098] (-) TimerEvent: {}
+[7.207851] (-) TimerEvent: {}
+[7.309506] (-) TimerEvent: {}
+[7.412341] (-) TimerEvent: {}
+[7.514190] (-) TimerEvent: {}
+[7.619432] (-) TimerEvent: {}
+[7.719800] (-) TimerEvent: {}
+[7.820313] (-) TimerEvent: {}
+[7.921815] (-) TimerEvent: {}
+[8.022280] (-) TimerEvent: {}
+[8.124417] (-) TimerEvent: {}
+[8.225723] (-) TimerEvent: {}
+[8.326232] (-) TimerEvent: {}
+[8.428650] (-) TimerEvent: {}
+[8.485492] (ee4308_drone) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/src/controller.cpp:4\x1b[m\x1b[K:\n'}
+[8.485859] (ee4308_drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/controller.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ee4308::drone::ROSNodeController::getLookahead(const Pose&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.486029] (ee4308_drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/controller.hpp:309:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdrone_pose\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.486144] (ee4308_drone) StderrLine: {'line': b'  309 |         void getLookahead(\x1b[01;35m\x1b[Kconst geometry_msgs::msg::Pose &drone_pose\x1b[m\x1b[K)\n'}
+[8.486222] (ee4308_drone) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.487161] (ee4308_drone) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/src/controller.cpp:4\x1b[m\x1b[K:\n'}
+[8.487305] (ee4308_drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/controller.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ee4308::drone::ROSNodeController::move(geometry_msgs::msg::Pose)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.487374] (ee4308_drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/controller.hpp:421:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdrone_yaw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.487436] (ee4308_drone) StderrLine: {'line': b'  421 |             double \x1b[01;35m\x1b[Kdrone_yaw\x1b[m\x1b[K = quaternionToYaw(drone_pose.orientation);\n'}
+[8.487494] (ee4308_drone) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.529738] (-) TimerEvent: {}
+[8.630262] (-) TimerEvent: {}
+[8.732383] (-) TimerEvent: {}
+[8.833294] (-) TimerEvent: {}
+[8.934272] (-) TimerEvent: {}
+[9.035414] (-) TimerEvent: {}
+[9.135962] (-) TimerEvent: {}
+[9.236583] (-) TimerEvent: {}
+[9.338013] (-) TimerEvent: {}
+[9.443081] (-) TimerEvent: {}
+[9.544171] (-) TimerEvent: {}
+[9.645171] (-) TimerEvent: {}
+[9.750929] (-) TimerEvent: {}
+[9.851407] (-) TimerEvent: {}
+[9.953814] (-) TimerEvent: {}
+[10.054599] (-) TimerEvent: {}
+[10.155513] (-) TimerEvent: {}
+[10.256043] (-) TimerEvent: {}
+[10.360414] (-) TimerEvent: {}
+[10.462064] (-) TimerEvent: {}
+[10.563309] (-) TimerEvent: {}
+[10.664282] (-) TimerEvent: {}
+[10.764869] (-) TimerEvent: {}
+[10.865279] (-) TimerEvent: {}
+[10.968404] (-) TimerEvent: {}
+[11.049789] (ee4308_drone) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/src/estimator.cpp:4\x1b[m\x1b[K:\n'}
+[11.050043] (ee4308_drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ee4308::drone::ROSNodeEstimator::correctFromMagnetic(geometry_msgs::msg::Vector3Stamped)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.050141] (ee4308_drone) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:431:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.050236] (ee4308_drone) StderrLine: {'line': b'  431 |         void correctFromMagnetic(\x1b[01;35m\x1b[Kconst geometry_msgs::msg::Vector3Stamped msg\x1b[m\x1b[K)\n'}
+[11.050309] (ee4308_drone) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.068575] (-) TimerEvent: {}
+[11.171652] (-) TimerEvent: {}
+[11.272069] (-) TimerEvent: {}
+[11.374506] (-) TimerEvent: {}
+[11.475023] (-) TimerEvent: {}
+[11.577073] (-) TimerEvent: {}
+[11.677768] (-) TimerEvent: {}
+[11.778710] (-) TimerEvent: {}
+[11.879586] (-) TimerEvent: {}
+[11.981768] (-) TimerEvent: {}
+[12.086353] (-) TimerEvent: {}
+[12.188517] (-) TimerEvent: {}
+[12.289402] (-) TimerEvent: {}
+[12.390587] (-) TimerEvent: {}
+[12.491968] (-) TimerEvent: {}
+[12.593069] (-) TimerEvent: {}
+[12.693789] (-) TimerEvent: {}
+[12.794639] (-) TimerEvent: {}
+[12.895254] (-) TimerEvent: {}
+[12.995704] (-) TimerEvent: {}
+[13.096481] (-) TimerEvent: {}
+[13.197248] (-) TimerEvent: {}
+[13.298842] (-) TimerEvent: {}
+[13.399638] (-) TimerEvent: {}
+[13.500487] (-) TimerEvent: {}
+[13.601271] (-) TimerEvent: {}
+[13.702498] (-) TimerEvent: {}
+[13.803115] (-) TimerEvent: {}
+[13.904028] (-) TimerEvent: {}
+[14.004849] (-) TimerEvent: {}
+[14.106080] (-) TimerEvent: {}
+[14.207951] (-) TimerEvent: {}
+[14.308646] (-) TimerEvent: {}
+[14.409205] (-) TimerEvent: {}
+[14.509876] (-) TimerEvent: {}
+[14.610831] (-) TimerEvent: {}
+[14.712119] (-) TimerEvent: {}
+[14.813432] (-) TimerEvent: {}
+[14.914473] (-) TimerEvent: {}
+[15.015259] (-) TimerEvent: {}
+[15.116067] (-) TimerEvent: {}
+[15.217094] (-) TimerEvent: {}
+[15.320294] (-) TimerEvent: {}
+[15.421213] (-) TimerEvent: {}
+[15.522403] (-) TimerEvent: {}
+[15.623315] (-) TimerEvent: {}
+[15.723926] (-) TimerEvent: {}
+[15.825773] (-) TimerEvent: {}
+[15.926793] (-) TimerEvent: {}
+[16.028428] (-) TimerEvent: {}
+[16.129451] (-) TimerEvent: {}
+[16.230306] (-) TimerEvent: {}
+[16.334604] (-) TimerEvent: {}
+[16.435697] (-) TimerEvent: {}
+[16.537562] (-) TimerEvent: {}
+[16.644569] (-) TimerEvent: {}
+[16.745503] (-) TimerEvent: {}
+[16.848248] (-) TimerEvent: {}
+[16.950303] (-) TimerEvent: {}
+[17.050787] (-) TimerEvent: {}
+[17.152158] (-) TimerEvent: {}
+[17.252980] (-) TimerEvent: {}
+[17.354179] (-) TimerEvent: {}
+[17.455481] (-) TimerEvent: {}
+[17.556101] (-) TimerEvent: {}
+[17.657130] (-) TimerEvent: {}
+[17.758398] (-) TimerEvent: {}
+[17.861289] (-) TimerEvent: {}
+[17.963179] (-) TimerEvent: {}
+[18.064409] (-) TimerEvent: {}
+[18.165444] (-) TimerEvent: {}
+[18.266521] (-) TimerEvent: {}
+[18.368285] (-) TimerEvent: {}
+[18.468890] (-) TimerEvent: {}
+[18.577755] (-) TimerEvent: {}
+[18.679394] (-) TimerEvent: {}
+[18.779939] (-) TimerEvent: {}
+[18.880484] (-) TimerEvent: {}
+[18.981794] (-) TimerEvent: {}
+[19.085778] (-) TimerEvent: {}
+[19.186625] (-) TimerEvent: {}
+[19.297717] (-) TimerEvent: {}
+[19.402581] (-) TimerEvent: {}
+[19.504430] (-) TimerEvent: {}
+[19.605909] (-) TimerEvent: {}
+[19.706438] (-) TimerEvent: {}
+[19.806958] (-) TimerEvent: {}
+[19.911328] (-) TimerEvent: {}
+[20.011686] (-) TimerEvent: {}
+[20.113460] (-) TimerEvent: {}
+[20.215945] (-) TimerEvent: {}
+[20.318362] (-) TimerEvent: {}
+[20.418832] (-) TimerEvent: {}
+[20.520066] (-) TimerEvent: {}
+[20.621109] (-) TimerEvent: {}
+[20.721949] (-) TimerEvent: {}
+[20.824377] (-) TimerEvent: {}
+[20.925315] (-) TimerEvent: {}
+[21.026320] (-) TimerEvent: {}
+[21.127089] (-) TimerEvent: {}
+[21.228378] (-) TimerEvent: {}
+[21.329709] (-) TimerEvent: {}
+[21.430900] (-) TimerEvent: {}
+[21.532034] (-) TimerEvent: {}
+[21.633300] (-) TimerEvent: {}
+[21.733584] (-) TimerEvent: {}
+[21.835392] (-) TimerEvent: {}
+[21.936014] (-) TimerEvent: {}
+[22.036454] (-) TimerEvent: {}
+[22.137438] (-) TimerEvent: {}
+[22.238696] (-) TimerEvent: {}
+[22.340224] (-) TimerEvent: {}
+[22.440970] (-) TimerEvent: {}
+[22.541864] (-) TimerEvent: {}
+[22.645555] (-) TimerEvent: {}
+[22.745994] (-) TimerEvent: {}
+[22.846595] (-) TimerEvent: {}
+[22.947725] (-) TimerEvent: {}
+[23.048058] (-) TimerEvent: {}
+[23.148745] (-) TimerEvent: {}
+[23.249851] (-) TimerEvent: {}
+[23.353863] (-) TimerEvent: {}
+[23.454270] (-) TimerEvent: {}
+[23.554629] (-) TimerEvent: {}
+[23.655154] (-) TimerEvent: {}
+[23.755505] (-) TimerEvent: {}
+[23.856200] (-) TimerEvent: {}
+[23.961312] (-) TimerEvent: {}
+[24.061696] (-) TimerEvent: {}
+[24.165635] (-) TimerEvent: {}
+[24.266274] (-) TimerEvent: {}
+[24.367997] (-) TimerEvent: {}
+[24.469644] (-) TimerEvent: {}
+[24.570657] (-) TimerEvent: {}
+[24.671253] (-) TimerEvent: {}
+[24.771744] (-) TimerEvent: {}
+[24.872290] (-) TimerEvent: {}
+[24.972945] (-) TimerEvent: {}
+[25.073455] (-) TimerEvent: {}
+[25.174351] (-) TimerEvent: {}
+[25.274609] (-) TimerEvent: {}
+[25.378507] (-) TimerEvent: {}
+[25.479172] (-) TimerEvent: {}
+[25.580116] (-) TimerEvent: {}
+[25.681114] (-) TimerEvent: {}
+[25.782778] (-) TimerEvent: {}
+[25.885068] (-) TimerEvent: {}
+[25.985711] (-) TimerEvent: {}
+[26.087811] (-) TimerEvent: {}
+[26.188518] (-) TimerEvent: {}
+[26.289161] (-) TimerEvent: {}
+[26.389562] (-) TimerEvent: {}
+[26.490077] (-) TimerEvent: {}
+[26.592253] (-) TimerEvent: {}
+[26.696687] (-) TimerEvent: {}
+[26.802107] (-) TimerEvent: {}
+[26.902478] (-) TimerEvent: {}
+[26.913967] (ee4308_drone) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable controller\x1b[0m\n'}
+[27.002731] (-) TimerEvent: {}
+[27.103694] (-) TimerEvent: {}
+[27.204446] (-) TimerEvent: {}
+[27.305141] (-) TimerEvent: {}
+[27.406652] (-) TimerEvent: {}
+[27.507224] (-) TimerEvent: {}
+[27.607945] (-) TimerEvent: {}
+[27.708620] (-) TimerEvent: {}
+[27.809165] (-) TimerEvent: {}
+[27.916546] (-) TimerEvent: {}
+[28.016995] (-) TimerEvent: {}
+[28.117742] (-) TimerEvent: {}
+[28.219498] (-) TimerEvent: {}
+[28.321084] (-) TimerEvent: {}
+[28.421726] (-) TimerEvent: {}
+[28.522323] (-) TimerEvent: {}
+[28.625032] (-) TimerEvent: {}
+[28.725725] (-) TimerEvent: {}
+[28.827781] (-) TimerEvent: {}
+[28.895806] (ee4308_drone) StdoutLine: {'line': b'[ 90%] Built target controller\n'}
+[28.928166] (-) TimerEvent: {}
+[29.028949] (-) TimerEvent: {}
+[29.129570] (-) TimerEvent: {}
+[29.230436] (-) TimerEvent: {}
+[29.331266] (-) TimerEvent: {}
+[29.432209] (-) TimerEvent: {}
+[29.532785] (-) TimerEvent: {}
+[29.633539] (-) TimerEvent: {}
+[29.734442] (-) TimerEvent: {}
+[29.835321] (-) TimerEvent: {}
+[29.935734] (-) TimerEvent: {}
+[30.036378] (-) TimerEvent: {}
+[30.137797] (-) TimerEvent: {}
+[30.238288] (-) TimerEvent: {}
+[30.340020] (-) TimerEvent: {}
+[30.442953] (-) TimerEvent: {}
+[30.545776] (-) TimerEvent: {}
+[30.648184] (-) TimerEvent: {}
+[30.749279] (-) TimerEvent: {}
+[30.850307] (-) TimerEvent: {}
+[30.952310] (-) TimerEvent: {}
+[31.053172] (-) TimerEvent: {}
+[31.154997] (-) TimerEvent: {}
+[31.257751] (-) TimerEvent: {}
+[31.360328] (-) TimerEvent: {}
+[31.461093] (-) TimerEvent: {}
+[31.561900] (-) TimerEvent: {}
+[31.662278] (-) TimerEvent: {}
+[31.765132] (-) TimerEvent: {}
+[31.866227] (-) TimerEvent: {}
+[31.966902] (-) TimerEvent: {}
+[32.069482] (-) TimerEvent: {}
+[32.170480] (-) TimerEvent: {}
+[32.278536] (-) TimerEvent: {}
+[32.379724] (-) TimerEvent: {}
+[32.482368] (-) TimerEvent: {}
+[32.583652] (-) TimerEvent: {}
+[32.694081] (-) TimerEvent: {}
+[32.794733] (-) TimerEvent: {}
+[32.898083] (-) TimerEvent: {}
+[33.001539] (-) TimerEvent: {}
+[33.102463] (-) TimerEvent: {}
+[33.205362] (-) TimerEvent: {}
+[33.305806] (-) TimerEvent: {}
+[33.406655] (-) TimerEvent: {}
+[33.507953] (-) TimerEvent: {}
+[33.608592] (-) TimerEvent: {}
+[33.709133] (-) TimerEvent: {}
+[33.809929] (-) TimerEvent: {}
+[33.910610] (-) TimerEvent: {}
+[34.011869] (-) TimerEvent: {}
+[34.112357] (-) TimerEvent: {}
+[34.213737] (-) TimerEvent: {}
+[34.314367] (-) TimerEvent: {}
+[34.414895] (-) TimerEvent: {}
+[34.515853] (-) TimerEvent: {}
+[34.616736] (-) TimerEvent: {}
+[34.718010] (-) TimerEvent: {}
+[34.818373] (-) TimerEvent: {}
+[34.919512] (-) TimerEvent: {}
+[35.020110] (-) TimerEvent: {}
+[35.120464] (-) TimerEvent: {}
+[35.233747] (-) TimerEvent: {}
+[35.334195] (-) TimerEvent: {}
+[35.437494] (-) TimerEvent: {}
+[35.538428] (-) TimerEvent: {}
+[35.641325] (-) TimerEvent: {}
+[35.741936] (-) TimerEvent: {}
+[35.842437] (-) TimerEvent: {}
+[35.942687] (-) TimerEvent: {}
+[36.045492] (-) TimerEvent: {}
+[36.145816] (-) TimerEvent: {}
+[36.246958] (-) TimerEvent: {}
+[36.348087] (-) TimerEvent: {}
+[36.450066] (-) TimerEvent: {}
+[36.551830] (-) TimerEvent: {}
+[36.659265] (-) TimerEvent: {}
+[36.760788] (-) TimerEvent: {}
+[36.861249] (-) TimerEvent: {}
+[36.962034] (-) TimerEvent: {}
+[37.063911] (-) TimerEvent: {}
+[37.164177] (-) TimerEvent: {}
+[37.265235] (-) TimerEvent: {}
+[37.366083] (-) TimerEvent: {}
+[37.467041] (-) TimerEvent: {}
+[37.568567] (-) TimerEvent: {}
+[37.669034] (-) TimerEvent: {}
+[37.769648] (-) TimerEvent: {}
+[37.870637] (-) TimerEvent: {}
+[37.971062] (-) TimerEvent: {}
+[38.072103] (-) TimerEvent: {}
+[38.172949] (-) TimerEvent: {}
+[38.275259] (-) TimerEvent: {}
+[38.376605] (-) TimerEvent: {}
+[38.477940] (-) TimerEvent: {}
+[38.579320] (-) TimerEvent: {}
+[38.680225] (-) TimerEvent: {}
+[38.780966] (-) TimerEvent: {}
+[38.882398] (-) TimerEvent: {}
+[38.982859] (-) TimerEvent: {}
+[39.084688] (-) TimerEvent: {}
+[39.185903] (-) TimerEvent: {}
+[39.286713] (-) TimerEvent: {}
+[39.387851] (-) TimerEvent: {}
+[39.489871] (-) TimerEvent: {}
+[39.590995] (-) TimerEvent: {}
+[39.694054] (-) TimerEvent: {}
+[39.795070] (-) TimerEvent: {}
+[39.895429] (-) TimerEvent: {}
+[39.995936] (-) TimerEvent: {}
+[40.097248] (-) TimerEvent: {}
+[40.197525] (-) TimerEvent: {}
+[40.298522] (-) TimerEvent: {}
+[40.399510] (-) TimerEvent: {}
+[40.500477] (-) TimerEvent: {}
+[40.600856] (-) TimerEvent: {}
+[40.701420] (-) TimerEvent: {}
+[40.802294] (-) TimerEvent: {}
+[40.902886] (-) TimerEvent: {}
+[41.003818] (-) TimerEvent: {}
+[41.104872] (-) TimerEvent: {}
+[41.209731] (-) TimerEvent: {}
+[41.310061] (-) TimerEvent: {}
+[41.410606] (-) TimerEvent: {}
+[41.513226] (-) TimerEvent: {}
+[41.613772] (-) TimerEvent: {}
+[41.714556] (-) TimerEvent: {}
+[41.815216] (-) TimerEvent: {}
+[41.915658] (-) TimerEvent: {}
+[42.025136] (-) TimerEvent: {}
+[42.126288] (-) TimerEvent: {}
+[42.226980] (-) TimerEvent: {}
+[42.333751] (-) TimerEvent: {}
+[42.437779] (-) TimerEvent: {}
+[42.541102] (-) TimerEvent: {}
+[42.641646] (-) TimerEvent: {}
+[42.742102] (-) TimerEvent: {}
+[42.842527] (-) TimerEvent: {}
+[42.942968] (-) TimerEvent: {}
+[43.045305] (-) TimerEvent: {}
+[43.149661] (-) TimerEvent: {}
+[43.253785] (-) TimerEvent: {}
+[43.358074] (-) TimerEvent: {}
+[43.465285] (-) TimerEvent: {}
+[43.572785] (-) TimerEvent: {}
+[43.674270] (-) TimerEvent: {}
+[43.774657] (-) TimerEvent: {}
+[43.878933] (-) TimerEvent: {}
+[43.981310] (-) TimerEvent: {}
+[44.081730] (-) TimerEvent: {}
+[44.184343] (-) TimerEvent: {}
+[44.284814] (-) TimerEvent: {}
+[44.385913] (-) TimerEvent: {}
+[44.486348] (-) TimerEvent: {}
+[44.593678] (-) TimerEvent: {}
+[44.695340] (-) TimerEvent: {}
+[44.797815] (-) TimerEvent: {}
+[44.898166] (-) TimerEvent: {}
+[44.999681] (-) TimerEvent: {}
+[45.101247] (-) TimerEvent: {}
+[45.202151] (-) TimerEvent: {}
+[45.302488] (-) TimerEvent: {}
+[45.402896] (-) TimerEvent: {}
+[45.503864] (-) TimerEvent: {}
+[45.604520] (-) TimerEvent: {}
+[45.706152] (-) TimerEvent: {}
+[45.809819] (-) TimerEvent: {}
+[45.910459] (-) TimerEvent: {}
+[46.012388] (-) TimerEvent: {}
+[46.116615] (-) TimerEvent: {}
+[46.217094] (-) TimerEvent: {}
+[46.318103] (-) TimerEvent: {}
+[46.420421] (-) TimerEvent: {}
+[46.521628] (-) TimerEvent: {}
+[46.624599] (-) TimerEvent: {}
+[46.726043] (-) TimerEvent: {}
+[46.829024] (-) TimerEvent: {}
+[46.929667] (-) TimerEvent: {}
+[47.030572] (-) TimerEvent: {}
+[47.131603] (-) TimerEvent: {}
+[47.233185] (-) TimerEvent: {}
+[47.333902] (-) TimerEvent: {}
+[47.445689] (-) TimerEvent: {}
+[47.546108] (-) TimerEvent: {}
+[47.653408] (-) TimerEvent: {}
+[47.754916] (-) TimerEvent: {}
+[47.855885] (-) TimerEvent: {}
+[47.956536] (-) TimerEvent: {}
+[48.057184] (-) TimerEvent: {}
+[48.158230] (-) TimerEvent: {}
+[48.261474] (-) TimerEvent: {}
+[48.362418] (-) TimerEvent: {}
+[48.463197] (-) TimerEvent: {}
+[48.565115] (-) TimerEvent: {}
+[48.666110] (-) TimerEvent: {}
+[48.767225] (-) TimerEvent: {}
+[48.868272] (-) TimerEvent: {}
+[48.976933] (-) TimerEvent: {}
+[49.078062] (-) TimerEvent: {}
+[49.179314] (-) TimerEvent: {}
+[49.280212] (-) TimerEvent: {}
+[49.382380] (-) TimerEvent: {}
+[49.483415] (-) TimerEvent: {}
+[49.584462] (-) TimerEvent: {}
+[49.685356] (-) TimerEvent: {}
+[49.787008] (-) TimerEvent: {}
+[49.888827] (-) TimerEvent: {}
+[49.989693] (-) TimerEvent: {}
+[50.090679] (-) TimerEvent: {}
+[50.191617] (-) TimerEvent: {}
+[50.292653] (-) TimerEvent: {}
+[50.394044] (-) TimerEvent: {}
+[50.494377] (-) TimerEvent: {}
+[50.595285] (-) TimerEvent: {}
+[50.695692] (-) TimerEvent: {}
+[50.796810] (-) TimerEvent: {}
+[50.900255] (-) TimerEvent: {}
+[51.001101] (-) TimerEvent: {}
+[51.103092] (-) TimerEvent: {}
+[51.204038] (-) TimerEvent: {}
+[51.305473] (-) TimerEvent: {}
+[51.406299] (-) TimerEvent: {}
+[51.507206] (-) TimerEvent: {}
+[51.608126] (-) TimerEvent: {}
+[51.708575] (-) TimerEvent: {}
+[51.809220] (-) TimerEvent: {}
+[51.909823] (-) TimerEvent: {}
+[52.010305] (-) TimerEvent: {}
+[52.111513] (-) TimerEvent: {}
+[52.214106] (-) TimerEvent: {}
+[52.264729] (ee4308_drone) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable estimator\x1b[0m\n'}
+[52.314642] (-) TimerEvent: {}
+[52.415248] (-) TimerEvent: {}
+[52.517318] (-) TimerEvent: {}
+[52.617766] (-) TimerEvent: {}
+[52.718503] (-) TimerEvent: {}
+[52.821883] (-) TimerEvent: {}
+[52.922673] (-) TimerEvent: {}
+[53.029047] (-) TimerEvent: {}
+[53.130696] (-) TimerEvent: {}
+[53.231679] (-) TimerEvent: {}
+[53.336026] (-) TimerEvent: {}
+[53.437621] (-) TimerEvent: {}
+[53.538243] (-) TimerEvent: {}
+[53.642095] (-) TimerEvent: {}
+[53.743924] (-) TimerEvent: {}
+[53.844965] (-) TimerEvent: {}
+[53.945987] (-) TimerEvent: {}
+[54.047612] (-) TimerEvent: {}
+[54.148486] (-) TimerEvent: {}
+[54.249418] (-) TimerEvent: {}
+[54.350404] (-) TimerEvent: {}
+[54.450930] (-) TimerEvent: {}
+[54.552208] (-) TimerEvent: {}
+[54.653006] (-) TimerEvent: {}
+[54.754358] (-) TimerEvent: {}
+[54.855612] (-) TimerEvent: {}
+[54.963525] (-) TimerEvent: {}
+[55.064976] (-) TimerEvent: {}
+[55.175838] (-) TimerEvent: {}
+[55.279036] (-) TimerEvent: {}
+[55.382418] (-) TimerEvent: {}
+[55.487455] (-) TimerEvent: {}
+[55.602658] (-) TimerEvent: {}
+[55.705896] (-) TimerEvent: {}
+[55.814207] (-) TimerEvent: {}
+[55.922450] (-) TimerEvent: {}
+[56.023646] (-) TimerEvent: {}
+[56.126000] (-) TimerEvent: {}
+[56.231006] (-) TimerEvent: {}
+[56.324442] (ee4308_drone) StdoutLine: {'line': b'[100%] Built target estimator\n'}
+[56.331818] (-) TimerEvent: {}
+[56.343919] (ee4308_drone) CommandEnded: {'returncode': 0}
+[56.415847] (ee4308_drone) JobProgress: {'identifier': 'ee4308_drone', 'progress': 'install'}
+[56.417578] (ee4308_drone) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone'], 'cwd': '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'kaeboon'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/kaeboon'), ('OLDPWD', '/home/kaeboon'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2201'), ('SYSTEMD_EXEC_PID', '2580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6461'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install:/home/kaeboon/KBoon/ee4308_proj2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaeboon'), ('JOURNAL_STREAM', '8:22256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('EE4308_TASK', 'proj2'), ('USERNAME', 'kaeboon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kaeboon:@/tmp/.ICE-unix/2347,unix/kaeboon:/tmp/.ICE-unix/2347'), ('INVOCATION_ID', '9048fc1925bb4a7f9531cde6d64517ae'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.42KQL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c1bcc87a-8a8c-4f3f-8966-2ad2ad82c362'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kaeboon/sjtu_drone/build/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_control/lib/python3.10/site-packages:/home/kaeboon/sjtu_drone/build/sjtu_drone_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_turtle:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble')]), 'shell': False}
+[56.430728] (ee4308_drone) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[56.431452] (ee4308_drone) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[56.432036] (-) TimerEvent: {}
+[56.432315] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/teleop\n'}
+[56.432816] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/behavior\n'}
+[56.433307] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/controller\n'}
+[56.433925] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/estimator\n'}
+[56.434555] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/smoother\n'}
+[56.434852] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ament_index/resource_index/package_run_dependencies/ee4308_drone\n'}
+[56.435232] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ament_index/resource_index/parent_prefix_path/ee4308_drone\n'}
+[56.435612] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/environment/ament_prefix_path.sh\n'}
+[56.435990] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/environment/ament_prefix_path.dsv\n'}
+[56.436408] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/environment/path.sh\n'}
+[56.436909] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/environment/path.dsv\n'}
+[56.437205] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/local_setup.bash\n'}
+[56.437495] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/local_setup.sh\n'}
+[56.437827] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/local_setup.zsh\n'}
+[56.438068] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/local_setup.dsv\n'}
+[56.438371] (ee4308_drone) StdoutLine: {'line': b'-- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.dsv\n'}
+[56.451096] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ament_index/resource_index/packages/ee4308_drone\n'}
+[56.451457] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[56.451686] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[56.452049] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/cmake/ee4308_droneConfig.cmake\n'}
+[56.452309] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/cmake/ee4308_droneConfig-version.cmake\n'}
+[56.452670] (ee4308_drone) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.xml\n'}
+[56.455591] (ee4308_drone) CommandEnded: {'returncode': 0}
+[56.539454] (-) TimerEvent: {}
+[56.640614] (-) TimerEvent: {}
+[56.741073] (-) TimerEvent: {}
+[56.745188] (ee4308_drone) JobEnded: {'identifier': 'ee4308_drone', 'rc': 0}
+[56.748517] (-) EventReactorShutdown: {}

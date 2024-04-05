@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages",
+        "/home/kaeboon/sjtu_drone/build/sjtu_drone_control",
+        "/home/kaeboon/sjtu_drone/install/sjtu_drone_control/lib/python3.10/site-packages",
+        "/home/kaeboon/sjtu_drone/build/sjtu_drone_bringup",
+        "/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages",
+        "/home/kaeboon/sjtu_drone/build/sjtu_drone_control",
+        "/home/kaeboon/sjtu_drone/install/sjtu_drone_control/lib/python3.10/site-packages",
+        "/home/kaeboon/sjtu_drone/build/sjtu_drone_bringup",
+        "/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

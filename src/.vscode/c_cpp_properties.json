@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/include/**",
+        "/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/**",
+        "/home/kaeboon/sjtu_drone/install/sjtu_drone_description/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/**",
+        "/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_gazebo_plugins/include/**",
+        "/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_lib/include/**",
+        "/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_turtle/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

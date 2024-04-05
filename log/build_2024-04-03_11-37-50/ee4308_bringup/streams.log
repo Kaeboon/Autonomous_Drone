@@ -1,0 +1,40 @@
+[0.438s] Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup -- -j4 -l4
+[0.689s] Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup -- -j4 -l4
+[0.959s] Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup
+[1.019s] -- Install configuration: ""
+[1.047s] -- Execute custom install script
+[1.048s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//launch/proj2.launch.py
+[1.048s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//rviz/proj2.rviz
+[1.050s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//params/drone.yaml
+[1.050s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//params/proj2.yaml
+[1.051s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/ee4308_world_24/model.config
+[1.051s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/ee4308_world_24/model.sdf
+[1.064s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/burger_base.dae
+[1.065s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/lds.dae
+[1.066s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/meshes/tire.dae
+[1.071s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/model.config
+[1.072s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_burger/model.sdf
+[1.072s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_world/meshes/hexagon.dae
+[1.072s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_world/meshes/wall.dae
+[1.072s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_world/model.config
+[1.072s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//models/turtlebot3_world/model.sdf
+[1.073s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//worlds/turtlebot3_world.world
+[1.073s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//urdf/sjtu_drone.urdf.xacro
+[1.073s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup//urdf/turtlebot3_burger.urdf.xacro
+[1.095s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ament_index/resource_index/package_run_dependencies/ee4308_bringup
+[1.095s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ament_index/resource_index/parent_prefix_path/ee4308_bringup
+[1.095s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/environment/ament_prefix_path.sh
+[1.095s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/environment/ament_prefix_path.dsv
+[1.096s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/environment/path.sh
+[1.097s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/environment/path.dsv
+[1.097s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/local_setup.bash
+[1.097s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/local_setup.sh
+[1.097s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/local_setup.zsh
+[1.097s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/local_setup.dsv
+[1.097s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/package.dsv
+[1.154s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ament_index/resource_index/packages/ee4308_bringup
+[1.155s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.155s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/cmake/ee4308_bringupConfig.cmake
+[1.155s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/cmake/ee4308_bringupConfig-version.cmake
+[1.155s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup/share/ee4308_bringup/package.xml
+[1.585s] Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_bringup

@@ -1,0 +1,4 @@
+the issue with the drone starting at the middle is because i am setting the gt to false, and then my estimator is not yet fully implemented.
+
+if we implemented estimator and have the gt to true, then it should work fine as well!
+

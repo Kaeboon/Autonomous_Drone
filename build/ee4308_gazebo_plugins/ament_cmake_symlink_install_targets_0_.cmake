@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins/libgazebo_ros_baro.so" "/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins/libgazebo_ros_magnetic.so" "TARGETS" "gazebo_ros_baro" "gazebo_ros_magnetic" "DESTINATION" "lib/ee4308_gazebo_plugins" "LIBRARY_DESTINATION" "lib")

@@ -1,0 +1,6 @@
+In file included from [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/src/estimator.cpp:4[m[K:
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:[m[K In member function ‘[01m[Kvoid ee4308::drone::ROSNodeEstimator::correctFromMagnetic(geometry_msgs::msg::Vector3Stamped)[m[K’:
+[01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:431:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  431 |  void correctFromMagnetic([01;35m[Kconst geometry_msgs::msg::Vector3Stamped msg[m[K)
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+

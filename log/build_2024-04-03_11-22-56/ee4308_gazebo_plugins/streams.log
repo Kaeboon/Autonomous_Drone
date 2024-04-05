@@ -1,0 +1,30 @@
+[0.188s] Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins -- -j4 -l4
+[0.495s] [ 50%] Built target gazebo_ros_baro
+[0.628s] [100%] Built target gazebo_ros_magnetic
+[0.922s] Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins -- -j4 -l4
+[1.225s] Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins
+[1.244s] -- Install configuration: ""
+[1.256s] -- Execute custom install script
+[1.257s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins//gazebo_ros_baro.hpp
+[1.259s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins//gazebo_ros_magnetic.hpp
+[1.260s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins//sensor_model.h
+[1.260s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins//update_timer.h
+[1.260s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib/libgazebo_ros_baro.so
+[1.260s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/lib/libgazebo_ros_magnetic.so
+[1.260s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/ee4308_gazebo_plugins
+[1.269s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/ee4308_gazebo_plugins
+[1.269s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/environment/ament_prefix_path.sh
+[1.269s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/environment/ament_prefix_path.dsv
+[1.269s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/environment/path.sh
+[1.271s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/environment/path.dsv
+[1.277s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/local_setup.bash
+[1.277s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/local_setup.sh
+[1.278s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/local_setup.zsh
+[1.278s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/local_setup.dsv
+[1.278s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.dsv
+[1.305s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ament_index/resource_index/packages/ee4308_gazebo_plugins
+[1.307s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.308s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/cmake/ee4308_gazebo_pluginsConfig.cmake
+[1.308s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/cmake/ee4308_gazebo_pluginsConfig-version.cmake
+[1.309s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_gazebo_plugins/share/ee4308_gazebo_plugins/package.xml
+[1.311s] Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_gazebo_plugins

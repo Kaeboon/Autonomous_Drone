@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ee4308_interfaces/action/ProcessDroneState.action
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Empty.idl"
+
+module ee4308_interfaces {
+  module action {
+    struct ProcessDroneState_Goal {
+      uint8 state;
+    };
+    struct ProcessDroneState_Result {
+      @verbatim (language="comment", text=
+        "result")
+      std_msgs::msg::Empty result;
+    };
+    struct ProcessDroneState_Feedback {
+      @verbatim (language="comment", text=
+        "feedback")
+      std_msgs::msg::Empty feedback;
+    };
+  };
+};

@@ -1,0 +1,3 @@
+[ 20%] Built target teleop
+[35m[1mConsolidate compiler generated dependencies of target estimator[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/estimator.dir/src/estimator.cpp.o[0m

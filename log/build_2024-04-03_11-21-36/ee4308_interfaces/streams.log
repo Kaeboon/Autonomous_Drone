@@ -1,0 +1,158 @@
+[0.385s] Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces -- -j4 -l4
+[0.491s] [  2%] Built target ee4308_interfaces__cpp
+[0.504s] [ 12%] Built target ee4308_interfaces__rosidl_generator_c
+[0.561s] [ 12%] Built target ament_cmake_python_symlink_ee4308_interfaces
+[0.591s] [ 23%] Built target ee4308_interfaces__rosidl_typesupport_cpp
+[0.591s] [ 34%] Built target ee4308_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.632s] [ 44%] Built target ee4308_interfaces__rosidl_typesupport_introspection_cpp
+[0.632s] [ 55%] Built target ee4308_interfaces__rosidl_typesupport_fastrtps_c
+[0.654s] [ 65%] Built target ee4308_interfaces__rosidl_typesupport_introspection_c
+[0.681s] [ 76%] Built target ee4308_interfaces__rosidl_typesupport_c
+[0.712s] [ 76%] Built target ee4308_interfaces
+[0.777s] [ 78%] Built target ee4308_interfaces__py
+[0.824s] [ 87%] Built target ee4308_interfaces__rosidl_generator_py
+[0.904s] [ 91%] Built target ee4308_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.939s] [ 95%] Built target ee4308_interfaces__rosidl_typesupport_c__pyext
+[0.940s] [100%] Built target ee4308_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.141s] running egg_info
+[1.142s] writing ee4308_interfaces.egg-info/PKG-INFO
+[1.142s] writing dependency_links to ee4308_interfaces.egg-info/dependency_links.txt
+[1.143s] writing top-level names to ee4308_interfaces.egg-info/top_level.txt
+[1.146s] reading manifest file 'ee4308_interfaces.egg-info/SOURCES.txt'
+[1.146s] writing manifest file 'ee4308_interfaces.egg-info/SOURCES.txt'
+[1.187s] [100%] Built target ament_cmake_python_build_ee4308_interfaces_egg
+[1.351s] Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces -- -j4 -l4
+[1.717s] Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces
+[1.731s] -- Install configuration: ""
+[1.732s] -- Execute custom install script
+[1.732s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ament_index/resource_index/rosidl_interfaces/ee4308_interfaces
+[1.733s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__functions.h
+[1.733s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__struct.h
+[1.734s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__type_support.h
+[1.734s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/process_drone_state.h
+[1.735s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.735s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__functions.h
+[1.736s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__struct.h
+[1.736s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__type_support.h
+[1.736s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__functions.h
+[1.737s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__struct.h
+[1.737s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__type_support.h
+[1.737s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/get_waypoint.h
+[1.738s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/waypoint.h
+[1.738s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/library_path.sh
+[1.743s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/library_path.dsv
+[1.744s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__rosidl_typesupport_fastrtps_c.h
+[1.744s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.745s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__rosidl_typesupport_fastrtps_c.h
+[1.745s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__rosidl_typesupport_fastrtps_c.h
+[1.745s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__builder.hpp
+[1.746s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__struct.hpp
+[1.746s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__traits.hpp
+[1.747s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/process_drone_state.hpp
+[1.747s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__builder.hpp
+[1.748s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__struct.hpp
+[1.748s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__traits.hpp
+[1.749s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__builder.hpp
+[1.749s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__struct.hpp
+[1.750s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__traits.hpp
+[1.750s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/get_waypoint.hpp
+[1.752s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/waypoint.hpp
+[1.752s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.754s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.754s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[1.754s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[1.761s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__rosidl_typesupport_introspection_c.h
+[1.761s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.761s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__rosidl_typesupport_introspection_c.h
+[1.762s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__rosidl_typesupport_introspection_c.h
+[1.762s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/action/detail/process_drone_state__rosidl_typesupport_introspection_cpp.hpp
+[1.763s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/get_waypoint__rosidl_typesupport_introspection_cpp.hpp
+[1.764s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/include/ee4308_interfaces/ee4308_interfaces/srv/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp
+[1.764s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/pythonpath.sh
+[1.765s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/pythonpath.dsv
+[1.765s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.765s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.766s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.767s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.767s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/__init__.py
+[1.767s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/_ee4308_interfaces_s.ep.rosidl_typesupport_c.c
+[1.768s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/_ee4308_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.768s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/_ee4308_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.768s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/action/__init__.py
+[1.772s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/action/_process_drone_state.py
+[1.773s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/action/_process_drone_state_s.c
+[1.773s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.773s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.773s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.775s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/libee4308_interfaces__rosidl_generator_py.so
+[1.775s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/__init__.py
+[1.775s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/_get_waypoint.py
+[1.775s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/_get_waypoint_s.c
+[1.775s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/_waypoint.py
+[1.778s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv/_waypoint_s.c
+[1.778s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.778s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.778s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/ee4308_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.780s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/action/ProcessDroneState.idl
+[1.780s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/Waypoint.idl
+[1.780s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/GetWaypoint.idl
+[1.780s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/action/ProcessDroneState.action
+[1.780s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/Waypoint.srv
+[1.781s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/Waypoint_Request.msg
+[1.781s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/Waypoint_Response.msg
+[1.781s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/GetWaypoint.srv
+[1.781s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/GetWaypoint_Request.msg
+[1.781s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/srv/GetWaypoint_Response.msg
+[1.781s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces//srv/GetWaypoint.srv
+[1.781s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces//srv/Waypoint.srv
+[1.781s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ament_index/resource_index/package_run_dependencies/ee4308_interfaces
+[1.781s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ament_index/resource_index/parent_prefix_path/ee4308_interfaces
+[1.781s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/ament_prefix_path.sh
+[1.781s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/ament_prefix_path.dsv
+[1.782s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/path.sh
+[1.782s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/environment/path.dsv
+[1.782s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/local_setup.bash
+[1.782s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/local_setup.sh
+[1.782s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/local_setup.zsh
+[1.782s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/local_setup.dsv
+[1.782s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/package.dsv
+[1.810s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ament_index/resource_index/packages/ee4308_interfaces
+[1.811s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.811s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.811s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.811s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.811s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.811s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.811s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.811s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfacesConfig.cmake
+[1.811s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfacesConfig-version.cmake
+[1.811s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/package.xml
+[1.811s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_generator_c.so
+[1.812s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.813s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.814s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_introspection_c.so
+[1.814s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_c.so
+[1.815s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.816s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_typesupport_cpp.so
+[1.887s] Listing '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces'...
+[1.888s] Listing '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/action'...
+[1.888s] Listing '/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages/ee4308_interfaces/srv'...
+[1.900s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib/libee4308_interfaces__rosidl_generator_py.so
+[1.901s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_cExport.cmake
+[1.901s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.902s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.902s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.902s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_cppExport.cmake
+[1.903s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.903s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.904s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.904s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.904s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_cExport.cmake
+[1.905s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.905s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.905s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.906s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_cppExport.cmake
+[1.906s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/ee4308_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.906s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_pyExport.cmake
+[1.907s] -- Up-to-date: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake/export_ee4308_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.933s] Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_interfaces

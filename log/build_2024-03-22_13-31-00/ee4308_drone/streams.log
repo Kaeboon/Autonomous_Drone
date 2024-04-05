@@ -1,0 +1,124 @@
+[0.244s] Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone': AMENT_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone
+[0.310s] -- The C compiler identification is GNU 11.4.0
+[0.386s] -- The CXX compiler identification is GNU 11.4.0
+[0.395s] -- Detecting C compiler ABI info
+[0.499s] -- Detecting C compiler ABI info - done
+[0.517s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.518s] -- Detecting C compile features
+[0.528s] -- Detecting C compile features - done
+[0.532s] -- Detecting CXX compiler ABI info
+[0.661s] -- Detecting CXX compiler ABI info - done
+[0.669s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.669s] -- Detecting CXX compile features
+[0.670s] -- Detecting CXX compile features - done
+[0.673s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.914s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.007s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.061s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.110s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.116s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.138s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.268s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.271s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.414s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.455s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.548s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.566s] -- Looking for pthread.h
+[1.662s] -- Looking for pthread.h - found
+[1.662s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.770s] -- Found Threads: TRUE  
+[1.980s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.060s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.217s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.322s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[2.351s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[2.372s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.823s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.834s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.835s] -- Found ee4308_lib: 0.0.0 (/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/cmake)
+[2.839s] -- Found ee4308_interfaces: 0.0.0 (/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/share/ee4308_interfaces/cmake)
+[3.249s] -- Configuring done
+[3.314s] -- Generating done
+[3.317s] -- Build files have been written to: /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone
+[3.336s] Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone' returned '0': AMENT_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone
+[3.337s] Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone': AMENT_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone -- -j4 -l4
+[3.459s] [ 10%] [32mBuilding CXX object CMakeFiles/behavior.dir/src/behavior.cpp.o[0m
+[3.478s] [ 20%] [32mBuilding CXX object CMakeFiles/teleop.dir/src/teleop.cpp.o[0m
+[3.491s] [ 30%] [32mBuilding CXX object CMakeFiles/estimator.dir/src/estimator.cpp.o[0m
+[3.492s] [ 40%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[19.434s] In file included from [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/src/controller.cpp:4[m[K:
+[19.434s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/controller.hpp:[m[K In member function ‘[01m[Kvoid ee4308::drone::ROSNodeController::getLookahead(const Pose&)[m[K’:
+[19.434s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/controller.hpp:309:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdrone_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[19.435s]   309 |         void getLookahead([01;35m[Kconst geometry_msgs::msg::Pose &drone_pose[m[K)
+[19.435s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[19.435s] In file included from [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/src/controller.cpp:4[m[K:
+[19.435s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/controller.hpp:[m[K In member function ‘[01m[Kvoid ee4308::drone::ROSNodeController::move(geometry_msgs::msg::Pose)[m[K’:
+[19.435s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/controller.hpp:327:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdrone_yaw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[19.435s]   327 |             double [01;35m[Kdrone_yaw[m[K = quaternionToYaw(drone_pose.orientation);
+[19.435s]       |                    [01;35m[K^~~~~~~~~[m[K
+[22.531s] In file included from [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/src/estimator.cpp:4[m[K:
+[22.532s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:[m[K In member function ‘[01m[KEigen::Vector3d ee4308::drone::ROSNodeEstimator::getECEF(const double&, const double&, const double&, const double&, const double&)[m[K’:
+[22.532s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:296:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksin_lat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.532s]   296 |             [01;35m[Kconst double &sin_lat[m[K, const double &cos_lat,
+[22.532s]       |             [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[22.532s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:296:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcos_lat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.532s]   296 |             const double &sin_lat, [01;35m[Kconst double &cos_lat[m[K,
+[22.532s]       |                                    [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[22.532s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:297:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksin_lon[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.532s]   297 |             [01;35m[Kconst double &sin_lon[m[K, const double &cos_lon,
+[22.532s]       |             [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[22.532s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:297:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcos_lon[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.532s]   297 |             const double &sin_lon, [01;35m[Kconst double &cos_lon[m[K,
+[22.533s]       |                                    [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[22.533s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:298:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kalt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.533s]   298 |             [01;35m[Kconst double &alt[m[K)
+[22.533s]       |             [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[22.533s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:[m[K In member function ‘[01m[Kvoid ee4308::drone::ROSNodeEstimator::correctFromGps(sensor_msgs::msg::NavSatFix)[m[K’:
+[22.533s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:326:29:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KECEF[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[22.533s]   326 |             Eigen::Vector3d [01;35m[KECEF[m[K = getECEF(sin_lat, cos_lat, sin_lon, cos_lon, alt);
+[22.533s]       |                             [01;35m[K^~~~[m[K
+[22.533s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:[m[K In member function ‘[01m[Kvoid ee4308::drone::ROSNodeEstimator::correctFromMagnetic(geometry_msgs::msg::Vector3Stamped)[m[K’:
+[22.533s] [01m[K/home/kaeboon/KBoon/ee4308_proj2/src/ee4308_drone/include/ee4308_drone/estimator.hpp:360:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.533s]   360 |         void correctFromMagnetic([01;35m[Kconst geometry_msgs::msg::Vector3Stamped msg[m[K)
+[22.533s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[29.889s] [ 50%] [32m[1mLinking CXX executable teleop[0m
+[31.149s] [ 50%] Built target teleop
+[44.297s] [ 60%] [32m[1mLinking CXX executable behavior[0m
+[46.591s] [ 60%] Built target behavior
+[49.287s] [ 70%] [32m[1mLinking CXX executable controller[0m
+[51.445s] [ 70%] Built target controller
+[69.389s] [ 80%] [32m[1mLinking CXX executable estimator[0m
+[72.304s] [ 80%] Built target estimator
+[72.338s] [ 90%] [32mBuilding CXX object CMakeFiles/smoother.dir/src/smoother.cpp.o[0m
+[88.412s] [100%] [32m[1mLinking CXX executable smoother[0m
+[89.267s] [100%] Built target smoother
+[89.288s] Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone' returned '0': AMENT_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone -- -j4 -l4
+[89.350s] Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone': AMENT_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone
+[89.365s] -- Install configuration: ""
+[89.365s] -- Execute custom install script
+[89.365s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/teleop
+[89.384s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/behavior
+[89.398s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/controller
+[89.411s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/estimator
+[89.425s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/lib/ee4308_drone/smoother
+[89.440s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ament_index/resource_index/package_run_dependencies/ee4308_drone
+[89.453s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ament_index/resource_index/parent_prefix_path/ee4308_drone
+[89.471s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/environment/ament_prefix_path.sh
+[89.487s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/environment/ament_prefix_path.dsv
+[89.500s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/environment/path.sh
+[89.514s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/environment/path.dsv
+[89.528s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/local_setup.bash
+[89.542s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/local_setup.sh
+[89.557s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/local_setup.zsh
+[89.580s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/local_setup.dsv
+[89.594s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.dsv
+[89.611s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ament_index/resource_index/packages/ee4308_drone
+[89.624s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/cmake/ament_cmake_export_include_directories-extras.cmake
+[89.638s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/cmake/ament_cmake_export_dependencies-extras.cmake
+[89.652s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/cmake/ee4308_droneConfig.cmake
+[89.678s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/cmake/ee4308_droneConfig-version.cmake
+[89.693s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_drone/share/ee4308_drone/package.xml
+[89.710s] Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone' returned '0': AMENT_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces:/home/kaeboon/sjtu_drone/install/sjtu_drone_description:/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_bringup:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/lib:/home/kaeboon/sjtu_drone/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/kaeboon/KBoon/ee4308_proj2/install/ee4308_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_drone

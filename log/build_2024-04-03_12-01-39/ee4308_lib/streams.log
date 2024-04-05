@@ -1,0 +1,26 @@
+[0.319s] Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib -- -j4 -l4
+[0.399s] Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib -- -j4 -l4
+[0.519s] Invoking command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib
+[0.542s] -- Install configuration: ""
+[0.544s] -- Execute custom install script
+[0.545s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/include/ee4308_lib//common.hpp
+[0.558s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/include/ee4308_lib//core.hpp
+[0.558s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/include/ee4308_lib//vec2.hpp
+[0.558s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ament_index/resource_index/package_run_dependencies/ee4308_lib
+[0.558s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ament_index/resource_index/parent_prefix_path/ee4308_lib
+[0.558s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/environment/ament_prefix_path.sh
+[0.558s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/environment/ament_prefix_path.dsv
+[0.558s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/environment/path.sh
+[0.558s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/environment/path.dsv
+[0.558s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/local_setup.bash
+[0.558s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/local_setup.sh
+[0.558s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/local_setup.zsh
+[0.558s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/local_setup.dsv
+[0.558s] -- Symlinking: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/package.dsv
+[0.588s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ament_index/resource_index/packages/ee4308_lib
+[0.588s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.588s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.589s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/cmake/ee4308_libConfig.cmake
+[0.589s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/cmake/ee4308_libConfig-version.cmake
+[0.589s] -- Up-to-date symlink: /home/kaeboon/KBoon/ee4308_proj2/install/ee4308_lib/share/ee4308_lib/package.xml
+[0.595s] Invoked command in '/home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaeboon/sjtu_drone/install/sjtu_drone_control:/home/kaeboon/sjtu_drone/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/kaeboon/KBoon/ee4308_proj2/build/ee4308_lib
