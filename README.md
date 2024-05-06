@@ -1,4 +1,4 @@
-## Autonomous Droe
+## Autonomous Drone
 
 ### Introduction
 
