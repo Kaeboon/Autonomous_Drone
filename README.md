@@ -2,7 +2,7 @@
 
 ### Introduction
 
-- The goal of this project is to control a flying frone to travel between different waypoints. it will repeat the following three steps until the ground robot reaches it's final waypoint - (i) move to the moving turtlebot, (ii) move to the turtlebot's waypoint, (iii) and back to the initial position above the take off point. Once the ground bot reaches the final waypoint, the cycle continues.
+- The goal of this project is to control a flying drone to travel between different waypoints. it will repeat the following three steps until the ground robot reaches it's final waypoint - (i) move to the moving turtlebot, (ii) move to the turtlebot's waypoint, (iii) and back to the initial position above the take off point. Once the ground bot reaches the final waypoint, the cycle continues.
 
 This program is developed using ROS2 Humble
 
